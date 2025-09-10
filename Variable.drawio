@@ -1,56 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="Page-1" id="vt6NGK-KOqVnWGpup1v-">
-    <mxGraphModel dx="1130" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mEAFpTAX7sbgpIUAFCqd-12" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;x2ap_gb_context_t&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;x2_enb_comm_info_t&lt;/td&gt;&lt;td&gt;local_enb_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_gb_enb_id_t&lt;/td&gt;&lt;td&gt;global_enb_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;sctp_sd_t&lt;/td&gt;&lt;td&gt;server_fd&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_gu_grp_ids_t&lt;/td&gt;&lt;td&gt;group_ids&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_peer_enb&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_peer_enb_context_t[MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;peer_enb_cntxt_arr&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_enb_ctxt_srch_tree_t&lt;/td&gt;&lt;td&gt;enb_ctxt_trees&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_served_cells&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_cell_info_t[MAX_NUM_CELL_IN_X2AP]&lt;/td&gt;&lt;td&gt;served_cell_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_act_cell_info_t[MAX_NUM_CELL_IN_X2AP]&lt;/td&gt;&lt;td&gt;act_cell_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U32&lt;/td&gt;&lt;td&gt;num_peer_enb_cells&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_peer_enb_cell_info_t[MAX_NEIGHBOURS]&lt;/td&gt;&lt;td&gt;peer_enb_cell_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_search_tree_t&lt;/td&gt;&lt;td&gt;nbr_ecgi_search_tree&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_cell_relation_table_t[MAX_NUM_CELL_IN_X2AP][MAX_NEIGHBOURS]&lt;/td&gt;&lt;td&gt;relation_table&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_conf_param_t&lt;/td&gt;&lt;td&gt;config_param&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_init_blk_t&lt;/td&gt;&lt;td&gt;x2ap_init_sm_blk&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_timer_t&lt;/td&gt;&lt;td&gt;cell_up_guard_tim_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_link_info_t[MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;x2ap_link_info&lt;/td&gt;&lt;/tr&gt;
-
-&lt;tr&gt;&lt;td&gt;x2ap_search_tree_t&lt;/td&gt;&lt;td&gt;x2ap_rsu_context_tree&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_prov_done&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;global_x2ap_rsu_meas_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;no_of_uecc_instances&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;void*&lt;/td&gt;&lt;td&gt;p_comm_info_int&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_son_present&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;rrc_timeval_t&lt;/td&gt;&lt;td&gt;sctp_start_time&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;total_ue_supported&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;YLIST&lt;/td&gt;&lt;td&gt;ho_ongoing_ue_ctx_list&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;YLIST (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;sgnb_ongoing_ue_ctx_list&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2ap_bool_et&lt;/td&gt;&lt;td&gt;log_enabled&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;log_level&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;endc_update_cell_index&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_need_update&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_need_update_cell_delete&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16[MAX_UE]&lt;/td&gt;&lt;td&gt;ue_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_id_head&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_id_tail&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_index&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;enb_update_cell_index&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enb_need_update&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enb_need_update_cell_delete&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_x2&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="190" y="80" width="440" height="800" as="geometry" />
+        <mxCell id="mEAFpTAX7sbgpIUAFCqd-12" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2ap_gb_context_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;x2_enb_comm_info_t&lt;/td&gt;&lt;td&gt;local_enb_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_gb_enb_id_t&lt;/td&gt;&lt;td&gt;global_enb_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;sctp_sd_t&lt;/td&gt;&lt;td&gt;server_fd&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_gu_grp_ids_t&lt;/td&gt;&lt;td&gt;group_ids&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_peer_enb&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_peer_enb_context_t[MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;peer_enb_cntxt_arr&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_enb_ctxt_srch_tree_t&lt;/td&gt;&lt;td&gt;enb_ctxt_trees&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_served_cells&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_cell_info_t[MAX_NUM_CELL_IN_X2AP]&lt;/td&gt;&lt;td&gt;served_cell_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_act_cell_info_t[MAX_NUM_CELL_IN_X2AP]&lt;/td&gt;&lt;td&gt;act_cell_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U32&lt;/td&gt;&lt;td&gt;num_peer_enb_cells&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_peer_enb_cell_info_t[MAX_NEIGHBOURS]&lt;/td&gt;&lt;td&gt;peer_enb_cell_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_search_tree_t&lt;/td&gt;&lt;td&gt;nbr_ecgi_search_tree&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_cell_relation_table_t[MAX_NUM_CELL_IN_X2AP][MAX_NEIGHBOURS]&lt;/td&gt;&lt;td&gt;relation_table&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_conf_param_t&lt;/td&gt;&lt;td&gt;config_param&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_init_blk_t&lt;/td&gt;&lt;td&gt;x2ap_init_sm_blk&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_timer_t&lt;/td&gt;&lt;td&gt;cell_up_guard_tim_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_link_info_t[MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;x2ap_link_info&lt;/td&gt;&lt;/tr&gt;  &lt;tr&gt;&lt;td&gt;x2ap_search_tree_t&lt;/td&gt;&lt;td&gt;x2ap_rsu_context_tree&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_prov_done&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;global_x2ap_rsu_meas_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;no_of_uecc_instances&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;void*&lt;/td&gt;&lt;td&gt;p_comm_info_int&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_son_present&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;rrc_timeval_t&lt;/td&gt;&lt;td&gt;sctp_start_time&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;total_ue_supported&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;YLIST&lt;/td&gt;&lt;td&gt;ho_ongoing_ue_ctx_list&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;YLIST (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;sgnb_ongoing_ue_ctx_list&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_bool_et&lt;/td&gt;&lt;td&gt;log_enabled&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;log_level&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;endc_update_cell_index&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_need_update&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_need_update_cell_delete&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16[MAX_UE]&lt;/td&gt;&lt;td&gt;ue_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_id_head&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_id_tail&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_index&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;enb_update_cell_index&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enb_need_update&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enb_need_update_cell_delete&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_x2&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="190" y="80" width="520" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="BtJZ-sTQOe0fA-wI8QZr-2" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b style=&quot;text-align: center;&quot;&gt;x2ap_enb_comm_info_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_ip_addr&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;x2_ip_addr_t&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;ip_addr[MAX_NUM_IP_ADDR]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1020" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
