@@ -169,94 +169,67 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_Jn_etRc4hGF2Gx0i6ME" name="OAM-LTE">
-    <mxGraphModel dx="780" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="630" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-<mxCell id="oam_prov_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_prov_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;oam_l2_req_t[OAM_MAX_NUM_L2_INSTANCE]&lt;/td&gt;&lt;td&gt;oam_l2_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_l3_req_t&lt;/td&gt;&lt;td&gt;oam_l3_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_rrm_req_t&lt;/td&gt;&lt;td&gt;oam_rrm_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_tr069_req_t&lt;/td&gt;&lt;td&gt;oam_tr069_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_son_req_t&lt;/td&gt;&lt;td&gt;oam_son_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;rrh_flag&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_rcm_req_t&lt;/td&gt;&lt;td&gt;oam_rcm_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;rcm_flag&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_system_status_t&lt;/td&gt;&lt;td&gt;system_status&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_device_info_t&lt;/td&gt;&lt;td&gt;tr069_device_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_igd_params_t&lt;/td&gt;&lt;td&gt;oam_igd_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_perf_mgmt_params_t&lt;/td&gt;&lt;td&gt;oam_pm_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_device_info_t&lt;/td&gt;&lt;td&gt;device_info_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_nms_ftp_server_params_t&lt;/td&gt;&lt;td&gt;oam_nms_ftp_server_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_params_t&lt;/td&gt;&lt;td&gt;oam_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_fm_cntxt_t&lt;/td&gt;&lt;td&gt;fm_cntxt&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8[2][39]&lt;/td&gt;&lt;td&gt;oam_son_enb_tnl_ip_address&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_hm_config_param_t&lt;/td&gt;&lt;td&gt;hm_config_param&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;num_cells_configured&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_l2_setup_params_t&lt;/td&gt;&lt;td&gt;l2_setup_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_cell_context_t&lt;/td&gt;&lt;td&gt;cell_cntxt&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_prb_usage_factor_t&lt;/td&gt;&lt;td&gt;prb_usage_factor&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_equip_params_t&lt;/td&gt;&lt;td&gt;equip_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_supported_event_info_t[OAM_SUPPORTED_EVENT_MAX]&lt;/td&gt;&lt;td&gt;oam_event_info&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_transport_info_t&lt;/td&gt;&lt;td&gt;transport_info&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="750" y="100" width="520" height="540" as="geometry" />
-</mxCell>
-<mxCell id="oam_sctp_assoc_params_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_sctp_assoc_params_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;in_streams&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;out_streams&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;local_port&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;rrc_timeval_t&lt;/td&gt;&lt;td&gt;start_time&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt8[MAX_IP_ADDRESS_LENGTH]&lt;/td&gt;&lt;td&gt;primary_peer_addr&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="100" y="100" width="380" height="200" as="geometry" />
-</mxCell>
-<mxCell id="oam_sctp_params_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_sctp_params_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;enable&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_sctp_assoc_params_t[MAX_NUM_MME + MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;sctp_assoc_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt16&lt;/td&gt;&lt;td&gt;current_no_of_s1ap_conns&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt16&lt;/td&gt;&lt;td&gt;current_no_of_x2ap_conns&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="520" y="100" width="420" height="180" as="geometry" />
-</mxCell>
-<mxCell id="oam_mme_data_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_mme_data_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;num_mme_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;UInt8[MAX_NUM_MME]&lt;/td&gt;&lt;td&gt;mme_id&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="100" y="320" width="360" height="120" as="geometry" />
-</mxCell>
-<mxCell id="oam_peer_enb_data_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_peer_enb_data_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;num_peer_enb&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_gb_enb_id_t[OAM_MAX_NUM_PEER_ENB]&lt;/td&gt;&lt;td&gt;enb_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_enb_comm_info_t[OAM_MAX_ENB_POOLS]&lt;/td&gt;&lt;td&gt;enb_comm_info&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="520" y="320" width="440" height="160" as="geometry" />
-</mxCell>
-<mxCell id="oam_l3_req_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_l3_req_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;oam_rrc_req_t&lt;/td&gt;&lt;td&gt;oam_rrc_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_s1ap_req_t&lt;/td&gt;&lt;td&gt;oam_s1ap_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_x2ap_req_t&lt;/td&gt;&lt;td&gt;oam_x2ap_req&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_sctp_params_t&lt;/td&gt;&lt;td&gt;sctp_params&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_mme_data_t&lt;/td&gt;&lt;td&gt;mme_data&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;oam_peer_enb_data_t&lt;/td&gt;&lt;td&gt;peer_enb_data&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="300" y="520" width="460" height="200" as="geometry" />
-</mxCell>
-
+        <mxCell id="oam_prov_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_prov_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;oam_l2_req_t[OAM_MAX_NUM_L2_INSTANCE]&lt;/td&gt;&lt;td&gt;oam_l2_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_l3_req_t&lt;/td&gt;&lt;td&gt;oam_l3_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_rrm_req_t&lt;/td&gt;&lt;td&gt;oam_rrm_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_tr069_req_t&lt;/td&gt;&lt;td&gt;oam_tr069_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_son_req_t&lt;/td&gt;&lt;td&gt;oam_son_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;rrh_flag&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_rcm_req_t&lt;/td&gt;&lt;td&gt;oam_rcm_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;rcm_flag&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_system_status_t&lt;/td&gt;&lt;td&gt;system_status&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_device_info_t&lt;/td&gt;&lt;td&gt;tr069_device_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_igd_params_t&lt;/td&gt;&lt;td&gt;oam_igd_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_perf_mgmt_params_t&lt;/td&gt;&lt;td&gt;oam_pm_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_device_info_t&lt;/td&gt;&lt;td&gt;device_info_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_nms_ftp_server_params_t&lt;/td&gt;&lt;td&gt;oam_nms_ftp_server_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_params_t&lt;/td&gt;&lt;td&gt;oam_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_fm_cntxt_t&lt;/td&gt;&lt;td&gt;fm_cntxt&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8[2][39]&lt;/td&gt;&lt;td&gt;oam_son_enb_tnl_ip_address&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_hm_config_param_t&lt;/td&gt;&lt;td&gt;hm_config_param&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;num_cells_configured&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_l2_setup_params_t&lt;/td&gt;&lt;td&gt;l2_setup_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_cell_context_t&lt;/td&gt;&lt;td&gt;cell_cntxt&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_prb_usage_factor_t&lt;/td&gt;&lt;td&gt;prb_usage_factor&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_equip_params_t&lt;/td&gt;&lt;td&gt;equip_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_supported_event_info_t[OAM_SUPPORTED_EVENT_MAX]&lt;/td&gt;&lt;td&gt;oam_event_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_transport_info_t&lt;/td&gt;&lt;td&gt;transport_info&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="750" y="100" width="520" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="oam_sctp_assoc_params_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_sctp_assoc_params_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;in_streams&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;out_streams&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt32&lt;/td&gt;&lt;td&gt;local_port&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;rrc_timeval_t&lt;/td&gt;&lt;td&gt;start_time&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt8[MAX_IP_ADDRESS_LENGTH]&lt;/td&gt;&lt;td&gt;primary_peer_addr&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1315" y="1010" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oam_sctp_params_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_sctp_params_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;enable&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_sctp_assoc_params_t[MAX_NUM_MME + MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;sctp_assoc_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt16&lt;/td&gt;&lt;td&gt;current_no_of_s1ap_conns&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt16&lt;/td&gt;&lt;td&gt;current_no_of_x2ap_conns&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="440" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oam_mme_data_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_mme_data_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;num_mme_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;UInt8[MAX_NUM_MME]&lt;/td&gt;&lt;td&gt;mme_id&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="580" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oam_peer_enb_data_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_peer_enb_data_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;UInt8&lt;/td&gt;&lt;td&gt;num_peer_enb&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_gb_enb_id_t[OAM_MAX_NUM_PEER_ENB]&lt;/td&gt;&lt;td&gt;enb_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_enb_comm_info_t[OAM_MAX_ENB_POOLS]&lt;/td&gt;&lt;td&gt;enb_comm_info&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="670" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oam_l3_req_t" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;oam_l3_req_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;oam_rrc_req_t&lt;/td&gt;&lt;td&gt;oam_rrc_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_s1ap_req_t&lt;/td&gt;&lt;td&gt;oam_s1ap_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_x2ap_req_t&lt;/td&gt;&lt;td&gt;oam_x2ap_req&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_sctp_params_t&lt;/td&gt;&lt;td&gt;sctp_params&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_mme_data_t&lt;/td&gt;&lt;td&gt;mme_data&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;oam_peer_enb_data_t&lt;/td&gt;&lt;td&gt;peer_enb_data&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="130" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BqameWWt2Zb7iNss1dZi-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.006;exitY=0.091;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="oam_prov_t" target="oam_l3_req_t">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="430" as="sourcePoint" />
+            <mxPoint x="1480" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iJ2iX_SmjW9vUQxu2hY4-1" value="Prov cho L3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BqameWWt2Zb7iNss1dZi-1">
+          <mxGeometry x="0.3036" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BqameWWt2Zb7iNss1dZi-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.851;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="oam_l3_req_t" target="oam_peer_enb_data_t">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1810" y="330" as="sourcePoint" />
+            <mxPoint x="1860" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1830" y="249" />
+              <mxPoint x="1830" y="660" />
+              <mxPoint x="1991" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BqameWWt2Zb7iNss1dZi-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="oam_l3_req_t" target="oam_mme_data_t">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1810" y="250" as="sourcePoint" />
+            <mxPoint x="1860" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1860" y="235" />
+              <mxPoint x="1860" y="560" />
+              <mxPoint x="1990" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BqameWWt2Zb7iNss1dZi-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="oam_l3_req_t" target="oam_sctp_params_t">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1810" y="250" as="sourcePoint" />
+            <mxPoint x="1860" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
