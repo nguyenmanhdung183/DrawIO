@@ -140,7 +140,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jGytHkXesSH2hj34qdEf-3" value="RRC_X2AP_MODULE_ID" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="620" width="770" height="540" as="geometry" />
+          <mxGeometry x="-120" y="620" width="780" height="580" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jGytHkXesSH2hj34qdEf-3" source="nEFYsT-crpDZ1YoU7cJc-4" target="nEFYsT-crpDZ1YoU7cJc-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -160,20 +160,30 @@
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jGytHkXesSH2hj34qdEf-3" source="nEFYsT-crpDZ1YoU7cJc-12" target="nEFYsT-crpDZ1YoU7cJc-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nEFYsT-crpDZ1YoU7cJc-12" value="x2ap_process_msg" style="rounded=1;whiteSpace=wrap;html=1;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
-          <mxGeometry x="460" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="7GoscIbdtp-0AamT8vIT-3" value="case: RRC_OAM_MODULE_ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nEFYsT-crpDZ1YoU7cJc-84">
+          <mxGeometry x="-0.6193" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nEFYsT-crpDZ1YoU7cJc-12" value="&lt;div&gt;X2apEntity&lt;/div&gt;x2ap_process_msg" style="rounded=1;whiteSpace=wrap;html=1;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
+          <mxGeometry x="460" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jGytHkXesSH2hj34qdEf-3" source="nEFYsT-crpDZ1YoU7cJc-11" target="nEFYsT-crpDZ1YoU7cJc-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7GoscIbdtp-0AamT8vIT-4" value="case: X2AP_OAM_PROVISION_REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nEFYsT-crpDZ1YoU7cJc-85">
+          <mxGeometry x="-0.4289" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-11" value="x2ap_process_oam_messages" style="rounded=1;whiteSpace=wrap;html=1;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
-          <mxGeometry x="425" y="130" width="190" height="60" as="geometry" />
+          <mxGeometry x="425" y="140" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jGytHkXesSH2hj34qdEf-3" source="nEFYsT-crpDZ1YoU7cJc-83" target="nEFYsT-crpDZ1YoU7cJc-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-83" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;x2ap_process_oam_prov_req ()&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
-          <mxGeometry x="342.5" y="220" width="385" height="200" as="geometry" />
+          <mxGeometry x="327.5" y="245" width="385" height="200" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-88" value="- fill peer enb context -&amp;gt; set state thành IDLE -&amp;gt; cần luồng&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;khác (vd:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;2 trạm khởi tạo kết nối,...) để&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;chuyển x2setup_state sang ACTIVE&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;- duyệt qua các cell mà enb đang quản lý&amp;nbsp;và fill thông tin&lt;br&gt;qua hàm x2ap_oam_populate_serverd_cell_info ()&lt;br&gt;&lt;br&gt;- trong từng cell đang quản lý, fill thông tin từng NC vào NCRT&amp;nbsp;&lt;br&gt;qua hàm&amp;nbsp;x2ap_upd_neighbour_cell_info () -&amp;gt; set cho các NC&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;đó trạng thái INACTIVE -&amp;gt; cần 1 số luồng khác để chuyển&amp;nbsp;&lt;/span&gt;&lt;div&gt;sang ACTIVE&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;" parent="nEFYsT-crpDZ1YoU7cJc-83" vertex="1">
           <mxGeometry x="5" y="24" width="380" height="160" as="geometry" />
@@ -188,7 +198,7 @@
           <mxGeometry x="65" y="310" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-101" value="biến ctx: p_x2ap_gb_ctx" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f8cecc;strokeColor=#b85450;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
-          <mxGeometry x="477.5" y="450" width="115" height="70" as="geometry" />
+          <mxGeometry x="462.5" y="480" width="115" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-178" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
           <mxGeometry x="562.5" y="30" width="30" height="30" as="geometry" />
@@ -245,8 +255,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nEFYsT-crpDZ1YoU7cJc-161" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;ol style=&quot;line-height: 120%;&quot;&gt;&lt;li&gt;Tạo cấu trúc dữ liệu từ thông tin trong xml&lt;/li&gt;&lt;li&gt;Đọc và gán các giá trị peer (numPeereNB, IPAddr, Port,....)&lt;/li&gt;&lt;li&gt;Đọc và gán các giá trị cho từng cell (prach, pci, cell_id, tac, plmn, FDD/TDD, anten info,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;num_neigh_cell)&amp;nbsp; + giá trị cho các NC trong cell (plmn, cid, pid, arfcn, ..) và xử lý populate data cho trường hợp InterRAT/ IntraRAT&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Tại RRC_X2AP khi đăng kí X2apEntity sẽ vào hàm x2ap_init&lt;/li&gt;&lt;li&gt;gọi hàm khởi tạo x2ap search tree&amp;nbsp; (ip, enb_id, nbr_ecgi, ipv6)---&amp;gt; khởi tạo timer (gửi INIT_IND) sau đó set state sang WF_PROV&lt;/li&gt;&lt;li&gt;fill header cho msg với api =&amp;nbsp;&lt;span style=&quot;font-size: 10px; text-align: center;&quot;&gt;X2AP_OAM_INIT_IND&lt;/span&gt;&lt;/li&gt;&lt;li&gt;gửi msg cho OAM&lt;/li&gt;&lt;li&gt;Đăng ký LayerEnity -&amp;gt; khi có msg đến OAM thì vào hàm&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;oam_layer_intf_process_ms() để xử lý -&amp;gt; lọc theo src_id để gọi hàm tiếp theo&lt;/span&gt;&lt;/li&gt;&lt;li&gt;dựa trên API ( X2AP_INIT_IND)-&amp;gt; set lại event và gọi hàm sau&amp;nbsp;&lt;/li&gt;&lt;li&gt;Kiếm tra tính hợp lệ của event và state -&amp;gt; gọi hàm trong fsm_tb&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="200" y="-570" width="410" height="240" as="geometry" />
+        <mxCell id="nEFYsT-crpDZ1YoU7cJc-161" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;ol style=&quot;line-height: 120%;&quot;&gt;&lt;li&gt;Tạo cấu trúc dữ liệu từ thông tin trong xml&lt;/li&gt;&lt;li&gt;Đọc và gán các giá trị peer (numPeereNB, IPAddr, Port,....)&lt;/li&gt;&lt;li&gt;Đọc và gán các giá trị cho từng cell (prach, pci, cell_id, tac, plmn, FDD/TDD, anten info,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;num_neigh_cell)&amp;nbsp; + giá trị cho các NC trong cell (plmn, cid, pid, arfcn, ..) và xử lý populate data cho trường hợp InterRAT/ IntraRAT&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Tại RRC_X2AP khi đăng kí X2apEntity sẽ vào hàm x2ap_init&lt;/li&gt;&lt;li&gt;gọi hàm khởi tạo x2ap search tree&amp;nbsp; (ip, enb_id, nbr_ecgi, ipv6)---&amp;gt; khởi tạo timer (gửi INIT_IND) sau đó set state sang WF_PROV&lt;/li&gt;&lt;li&gt;fill header cho msg với api =&amp;nbsp;&lt;span style=&quot;font-size: 10px; text-align: center;&quot;&gt;X2AP_OAM_INIT_IND&lt;/span&gt;&lt;/li&gt;&lt;li&gt;gửi msg cho OAM&lt;/li&gt;&lt;li&gt;Đăng ký LayerEntity -&amp;gt; khi có msg đến OAM thì vào hàm&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;oam_layer_intf_process_ms() để xử lý -&amp;gt; lọc theo src_id để gọi hàm tiếp theo&lt;/span&gt;&lt;/li&gt;&lt;li&gt;dựa trên API ( X2AP_INIT_IND)-&amp;gt; set lại event = OAM_CM_EV_LAYER_REQ và gọi hàm sau&amp;nbsp;&lt;/li&gt;&lt;li&gt;Kiếm tra tính hợp lệ của event và state -&amp;gt; gọi hàm trong fsm_tb&lt;/li&gt;&lt;li&gt;dựa trển SRC_ID để gọi hàm tiếp theo&lt;/li&gt;&lt;li&gt;dựa trên API (X2_INIT) -&amp;gt; gửi PROV_REQ cho X2AP -&amp;gt; nếu gửi thành công --&amp;gt; chuyển state sang WF_RES&lt;/li&gt;&lt;li&gt;fill các thông tin từ struct x2ap_oam_provision_req + header vào 1 buffer và gửi đi&lt;/li&gt;&lt;li&gt;khi có msg đến X2apEntity thì gọi hàm process_msg -&amp;gt;&amp;nbsp; lọc theo SRC_ID (RRC_OAM_MODULE_ID) và nếu có SON thì bỏ qua msg này, nếu không thì gọi hàm tiếp theo để xử lý&lt;/li&gt;&lt;li&gt;dựa theo API_ID để gọi hàm tiếp theo&lt;/li&gt;&lt;li&gt;-&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="680" y="680" width="635" height="290" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-168" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="130" y="940" width="30" height="30" as="geometry" />
