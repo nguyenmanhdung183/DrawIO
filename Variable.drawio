@@ -121,7 +121,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-<mxCell id="cell_info" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2ap_cell_info_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
+<mxCell id="nb_cell_info" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2ap_cell_info_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
 
 &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;bitmask&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;U32&lt;/td&gt;&lt;td&gt;pci&lt;/td&gt;&lt;/tr&gt;
