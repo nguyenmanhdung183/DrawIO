@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
-  <diagram name="Page-1" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2216" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
+  <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
+    <mxGraphModel dx="3066" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,7 +249,7 @@
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="nEFYsT-crpDZ1YoU7cJc-6" target="nEFYsT-crpDZ1YoU7cJc-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nEFYsT-crpDZ1YoU7cJc-80" value="LTE - LUỒNG GỬI PROVISION CHỨA THÔNG TIN PEER + NB CELL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="nEFYsT-crpDZ1YoU7cJc-80" value="LTE - LUỒNG GỬI PROVISION CHỨA THÔNG TIN PEER + NB CELL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-360" y="-270" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nEFYsT-crpDZ1YoU7cJc-25" target="nEFYsT-crpDZ1YoU7cJc-8" edge="1">
@@ -266,7 +266,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-161" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;ol style=&quot;line-height: 120%;&quot;&gt;&lt;li&gt;Tạo cấu trúc dữ liệu từ thông tin trong xml&lt;/li&gt;&lt;li&gt;Đọc và gán các giá trị peer (numPeereNB, IPAddr, Port,....)&lt;/li&gt;&lt;li&gt;Đọc và gán các giá trị cho từng cell (prach, pci, cell_id, tac, plmn, FDD/TDD, anten info,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;num_neigh_cell)&amp;nbsp; + giá trị cho các NC trong cell (plmn, cid, pid, arfcn, ..) và xử lý populate data cho trường hợp InterRAT/ IntraRAT&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Tại RRC_X2AP khi đăng kí X2apEntity sẽ vào hàm x2ap_init&lt;/li&gt;&lt;li&gt;gọi hàm khởi tạo x2ap search tree&amp;nbsp; (ip, enb_id, nbr_ecgi, ipv6)---&amp;gt; khởi tạo timer (gửi INIT_IND) sau đó set state sang WF_PROV&lt;/li&gt;&lt;li&gt;fill header cho msg với api =&amp;nbsp;&lt;span style=&quot;font-size: 10px; text-align: center;&quot;&gt;X2AP_OAM_INIT_IND&lt;/span&gt;&lt;/li&gt;&lt;li&gt;gửi msg cho OAM&lt;/li&gt;&lt;li&gt;Đăng ký LayerEntity -&amp;gt; khi có msg đến OAM thì vào hàm&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;oam_layer_intf_process_ms() để xử lý -&amp;gt; lọc theo src_id để gọi hàm tiếp theo&lt;/span&gt;&lt;/li&gt;&lt;li&gt;dựa trên API ( X2AP_INIT_IND)-&amp;gt; set lại event = OAM_CM_EV_LAYER_REQ và gọi hàm sau&amp;nbsp;&lt;/li&gt;&lt;li&gt;Kiếm tra tính hợp lệ của event và state -&amp;gt; gọi hàm trong fsm_tb&lt;/li&gt;&lt;li&gt;dựa trển SRC_ID để gọi hàm tiếp theo&lt;/li&gt;&lt;li&gt;dựa trên API (X2_INIT) -&amp;gt; gửi PROV_REQ cho X2AP -&amp;gt; nếu gửi thành công --&amp;gt; chuyển state sang WF_RES&lt;/li&gt;&lt;li&gt;fill các thông tin từ struct x2ap_oam_provision_req + header vào 1 buffer và gửi đi&lt;/li&gt;&lt;li&gt;khi có msg đến X2apEntity thì gọi hàm process_msg -&amp;gt;&amp;nbsp; lọc theo SRC_ID (RRC_OAM_MODULE_ID) và nếu có SON thì bỏ qua msg này, nếu không thì gọi hàm tiếp theo để xử lý&lt;/li&gt;&lt;li&gt;dựa theo API_ID để gọi hàm tiếp theo&lt;/li&gt;&lt;li&gt;-&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="800" y="710" width="635" height="290" as="geometry" />
+          <mxGeometry x="-865" y="380" width="635" height="290" as="geometry" />
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-168" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="130" y="940" width="30" height="30" as="geometry" />
@@ -287,8 +287,16 @@
           <mxGeometry x="350" y="60" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7GoscIbdtp-0AamT8vIT-2" value="x2ap_gb_context_t&lt;div&gt;comm_info_init_params_t&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="670" width="440" height="460" as="geometry" />
+          <mxGeometry x="-730" y="720" width="440" height="460" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iK-zFaJnKlHpPGUMkbT-" name="NR">
+    <mxGraphModel dx="1639" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
