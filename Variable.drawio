@@ -1,39 +1,37 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="Page-1" id="vt6NGK-KOqVnWGpup1v-">
-    <mxGraphModel dx="937" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1639" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mEAFpTAX7sbgpIUAFCqd-12" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2ap_gb_context_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;x2_enb_comm_info_t&lt;/td&gt;&lt;td&gt;local_enb_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_gb_enb_id_t&lt;/td&gt;&lt;td&gt;global_enb_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;sctp_sd_t&lt;/td&gt;&lt;td&gt;server_fd&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_gu_grp_ids_t&lt;/td&gt;&lt;td&gt;group_ids&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_peer_enb&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_peer_enb_context_t[MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;peer_enb_cntxt_arr&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_enb_ctxt_srch_tree_t&lt;/td&gt;&lt;td&gt;enb_ctxt_trees&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_served_cells&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_cell_info_t[MAX_NUM_CELL_IN_X2AP]&lt;/td&gt;&lt;td&gt;served_cell_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_act_cell_info_t[MAX_NUM_CELL_IN_X2AP]&lt;/td&gt;&lt;td&gt;act_cell_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U32&lt;/td&gt;&lt;td&gt;num_peer_enb_cells&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_peer_enb_cell_info_t[MAX_NEIGHBOURS]&lt;/td&gt;&lt;td&gt;peer_enb_cell_info&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_search_tree_t&lt;/td&gt;&lt;td&gt;nbr_ecgi_search_tree&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_cell_relation_table_t[MAX_NUM_CELL_IN_X2AP][MAX_NEIGHBOURS]&lt;/td&gt;&lt;td&gt;relation_table&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_conf_param_t&lt;/td&gt;&lt;td&gt;config_param&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_init_blk_t&lt;/td&gt;&lt;td&gt;x2ap_init_sm_blk&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_timer_t&lt;/td&gt;&lt;td&gt;cell_up_guard_tim_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_link_info_t[MAX_PEER_ENB]&lt;/td&gt;&lt;td&gt;x2ap_link_info&lt;/td&gt;&lt;/tr&gt;  &lt;tr&gt;&lt;td&gt;x2ap_search_tree_t&lt;/td&gt;&lt;td&gt;x2ap_rsu_context_tree&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_prov_done&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;global_x2ap_rsu_meas_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;no_of_uecc_instances&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;void*&lt;/td&gt;&lt;td&gt;p_comm_info_int&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_son_present&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;rrc_timeval_t&lt;/td&gt;&lt;td&gt;sctp_start_time&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;total_ue_supported&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;YLIST&lt;/td&gt;&lt;td&gt;ho_ongoing_ue_ctx_list&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;YLIST (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;sgnb_ongoing_ue_ctx_list&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2ap_bool_et&lt;/td&gt;&lt;td&gt;log_enabled&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;log_level&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;endc_update_cell_index&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_need_update&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_need_update_cell_delete&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16[MAX_UE]&lt;/td&gt;&lt;td&gt;ue_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_id_head&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_id_tail&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;ue_index&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;enb_update_cell_index&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enb_need_update&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enb_need_update_cell_delete&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_endc_x2&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="190" y="80" width="520" height="800" as="geometry" />
         </mxCell>
-<mxCell id="enb_comm_info" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2_enb_comm_info_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_ip_addr&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_ip_addr_t[MAX_NUM_IP_ADDR]&lt;/td&gt;&lt;td&gt;ip_addr&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;port&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;bitmask&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_ipv6_addr&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_ipv6_addr_t[MAX_NUM_IP_ADDR]&lt;/td&gt;&lt;td&gt;ipv6_addr&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_tlas&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_extend_trans_layer_addrs_t[MAX_NUM_ENB_X2AP_EXT_TLAS]&lt;/td&gt;&lt;td&gt;extend_trans_layer_addrs&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8 (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;is_peer_gnodeb&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enable_x2ap&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="750" y="100" width="460" height="340" as="geometry" />
-</mxCell>
-<mxCell id="gb_enb_id" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2_gb_enb_id_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
-
-&lt;tr&gt;&lt;td&gt;x2ap_plmn_identity_t&lt;/td&gt;&lt;td&gt;plmn_identity&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;x2_enb_id_info_t&lt;/td&gt;&lt;td&gt;enb_id&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;en_gnb_id_t (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;en_gnb_id&lt;/td&gt;&lt;/tr&gt;
-
-&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-  <mxGeometry x="750" y="100" width="460" height="160" as="geometry" />
-</mxCell>
-
-
+        <mxCell id="enb_comm_info" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2_enb_comm_info_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_ip_addr&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_ip_addr_t[MAX_NUM_IP_ADDR]&lt;/td&gt;&lt;td&gt;ip_addr&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;port&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;bitmask&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_ipv6_addr&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_ipv6_addr_t[MAX_NUM_IP_ADDR]&lt;/td&gt;&lt;td&gt;ipv6_addr&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_tlas&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_extend_trans_layer_addrs_t[MAX_NUM_ENB_X2AP_EXT_TLAS]&lt;/td&gt;&lt;td&gt;extend_trans_layer_addrs&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8 (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;is_peer_gnodeb&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enable_x2ap&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="920" y="150" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gb_enb_id" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2_gb_enb_id_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;  &lt;tr&gt;&lt;td&gt;x2ap_plmn_identity_t&lt;/td&gt;&lt;td&gt;plmn_identity&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;x2_enb_id_info_t&lt;/td&gt;&lt;td&gt;enb_id&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td&gt;en_gnb_id_t (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;en_gnb_id&lt;/td&gt;&lt;/tr&gt;  &lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="920" y="490" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="y_6j5cOIvTtQIXjw5sfr-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.03;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mEAFpTAX7sbgpIUAFCqd-12" target="enb_comm_info">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="480" as="sourcePoint" />
+            <mxPoint x="700" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_6j5cOIvTtQIXjw5sfr-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mEAFpTAX7sbgpIUAFCqd-12" target="gb_enb_id">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="300" as="sourcePoint" />
+            <mxPoint x="870" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="125" />
+              <mxPoint x="840" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
