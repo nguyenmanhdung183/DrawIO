@@ -121,6 +121,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
+<mxCell id="cell_info" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;&lt;b&gt;x2ap_cell_info_t&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;
+
+&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;bitmask&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;U32&lt;/td&gt;&lt;td&gt;pci&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_ecgi_t&lt;/td&gt;&lt;td&gt;ecgi&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_tac_t&lt;/td&gt;&lt;td&gt;track_area_code&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_broadcast_plmn_t&lt;/td&gt;&lt;td&gt;broadcast_plmn_info&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_choice_eutra_mode_info_t&lt;/td&gt;&lt;td&gt;choice_eutra_mode&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_antenna_port&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_prach_configuration_info_t&lt;/td&gt;&lt;td&gt;prach_config&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_mbsfn_subframe_info_t&lt;/td&gt;&lt;td&gt;mbsfn_subframe_info&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;x2ap_earfcn_t&lt;/td&gt;&lt;td&gt;earfcn&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;U16&lt;/td&gt;&lt;td&gt;num_nbour&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;U8[4]&lt;/td&gt;&lt;td&gt;csg_identity&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+  <mxGeometry x="750" y="100" width="460" height="360" as="geometry" />
+</mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
