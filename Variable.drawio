@@ -18,7 +18,7 @@
 &lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;num_tlas&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;x2_extend_trans_layer_addrs_t[MAX_NUM_ENB_X2AP_EXT_TLAS]&lt;/td&gt;&lt;td&gt;extend_trans_layer_addrs&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;U8 (ifdef VIETTEL_NSA)&lt;/td&gt;&lt;td&gt;is_peer_gnodeb&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enable_x2ap&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;U8&lt;/td&gt;&lt;td&gt;is_enable_x2ap&lt;/td&gt;&lt;/tr&gt;"
 style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="200" y="1020" width="280" height="80" as="geometry" />
         </mxCell>
