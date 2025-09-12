@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2830" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3628" dy="2148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -423,7 +423,7 @@
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-103" value="[X2_SETUP_IDLE_ST]&lt;div&gt;[CSC_CELL_STATUS_RESP]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-94">
           <mxGeometry x="0.8515" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-9" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4SOa410NmmghQBkVjJKv-3" source="NYHd2ZrHECOrhbtWjlzU-86" target="NYHd2ZrHECOrhbtWjlzU-78">
@@ -436,7 +436,7 @@
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-102" value="[X2_SETUP_TIME_TO_WAIT_EXP_ST]&lt;div&gt;[X2_SETUP_TIME_WAIT_TMR_EXP_EV]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-101">
           <mxGeometry x="0.7208" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-86" value="x2setup_sm" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
@@ -455,7 +455,7 @@
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-99" value="[X2_SETUP_W_X2_SETUP_RESP_ST]&lt;div&gt;[X2_SETUP_RESP_TMR_EXP_EV]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-92">
           <mxGeometry x="0.7395" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ connection to Local" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
