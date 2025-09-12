@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="3125" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2871" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,12 +335,6 @@
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_req_idle_hdl&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
           <mxGeometry x="590" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-11" value="x2ap_update_cell_info_for_req" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
-          <mxGeometry x="70" y="280" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="NYHd2ZrHECOrhbtWjlzU-1" source="NYHd2ZrHECOrhbtWjlzU-15" target="NYHd2ZrHECOrhbtWjlzU-11">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-15" value="x2_setup_req_evt_hdl" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
           <mxGeometry x="525" y="280" width="250" height="250" as="geometry" />
