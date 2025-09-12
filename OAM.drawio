@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2871" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3339" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -307,7 +307,7 @@
           <mxGeometry x="-730" y="720" width="440" height="460" as="geometry" />
         </mxCell>
         <mxCell id="4SOa410NmmghQBkVjJKv-3" value="Local REQ connection to Peer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="870" y="620" width="820" height="580" as="geometry" />
+          <mxGeometry x="980" y="370" width="850" height="620" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ connection to Local" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="980" y="-310" width="820" height="580" as="geometry" />
@@ -350,6 +350,11 @@
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-5" target="NYHd2ZrHECOrhbtWjlzU-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-34" value="SETUP_REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-22">
+          <mxGeometry x="-0.1887" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-5" value="Peer eNB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1050" y="-520" width="60" height="80" as="geometry" />
