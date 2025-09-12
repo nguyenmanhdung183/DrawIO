@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="4978" dy="2882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7163" dy="4070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -684,7 +684,7 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-39" target="NYHd2ZrHECOrhbtWjlzU-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-55" value="&lt;font style=&quot;&quot;&gt;SETUP_REQ&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#007FFF;" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-54">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-55" value="&lt;font style=&quot;&quot;&gt;SETUP_REQ&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;(global_enb_id/&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;server_cell[] (gồm SC, NC[])/&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&amp;nbsp;group)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#007FFF;" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-54">
           <mxGeometry x="0.3684" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
