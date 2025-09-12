@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="3628" dy="2148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3339" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,11 +294,50 @@
         <mxCell id="7GoscIbdtp-0AamT8vIT-2" value="x2ap_gb_context_t&lt;div&gt;comm_info_init_params_t&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="-730" y="720" width="440" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="4SOa410NmmghQBkVjJKv-3" value="Local REQ to Peer" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4SOa410NmmghQBkVjJKv-3" value="Local REQ connection&amp;nbsp;&amp;nbsp;to Peer" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="620" width="820" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ to Local" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="-190" width="820" height="580" as="geometry" />
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ connection to Local" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="-90" width="820" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NYHd2ZrHECOrhbtWjlzU-1" source="NYHd2ZrHECOrhbtWjlzU-6" target="NYHd2ZrHECOrhbtWjlzU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-6" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_sctp_rcv_data&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NYHd2ZrHECOrhbtWjlzU-1" source="NYHd2ZrHECOrhbtWjlzU-7" target="NYHd2ZrHECOrhbtWjlzU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-7" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_sm_entry&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
+          <mxGeometry x="270" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NYHd2ZrHECOrhbtWjlzU-1" source="NYHd2ZrHECOrhbtWjlzU-8" target="NYHd2ZrHECOrhbtWjlzU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_sm&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;[X2_SETUP_IDLE_ST][X2_SETUP_REQ_EV]&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
+          <mxGeometry x="570" y="55" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NYHd2ZrHECOrhbtWjlzU-1" source="NYHd2ZrHECOrhbtWjlzU-9" target="NYHd2ZrHECOrhbtWjlzU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_req_idle_hdl&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
+          <mxGeometry x="590" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-11" value="x2ap_update_cell_info_for_req" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
+          <mxGeometry x="70" y="280" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NYHd2ZrHECOrhbtWjlzU-1" source="NYHd2ZrHECOrhbtWjlzU-15" target="NYHd2ZrHECOrhbtWjlzU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-15" value="x2_setup_req_evt_hdl" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
+          <mxGeometry x="550" y="280" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_build_x2setup_resp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
+          <mxGeometry x="25" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-5" value="Peer eNB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-380" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
