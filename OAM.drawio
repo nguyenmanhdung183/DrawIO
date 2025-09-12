@@ -698,7 +698,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-208" value="fill thông tin của Peer vào context của mình&lt;div&gt;set trạng thái sang ACTIVE&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-207">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-208" value="fill thông tin của Peer (SC[], NC[][]) vào context của mình&lt;div&gt;set trạng thái NC của mình sang ACTIVE&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-207">
           <mxGeometry x="0.661" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
