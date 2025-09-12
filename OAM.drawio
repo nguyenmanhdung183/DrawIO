@@ -350,7 +350,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-24" value="SETUP_RESP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-23">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-24" value="SETUP_RESP (eNB, Group, Cell, NC of each Cell)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-23">
           <mxGeometry x="0.4152" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
