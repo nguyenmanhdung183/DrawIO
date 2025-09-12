@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0" pages="2">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="3011" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4680" dy="2720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,6 +224,18 @@
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-181" value="17" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="jGytHkXesSH2hj34qdEf-3" vertex="1">
           <mxGeometry x="580" y="450" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=115;entryDy=45;entryPerimeter=0;exitX=0.843;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="jGytHkXesSH2hj34qdEf-3" source="NYHd2ZrHECOrhbtWjlzU-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950.000086505378" y="-490.0011764705883" as="sourcePoint" />
+            <mxPoint x="577.5" y="589.9399999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="-479" />
+              <mxPoint x="1950" y="-310" />
+              <mxPoint x="950" y="-310" />
+              <mxPoint x="950" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-2" value="RRC_MODULE_ID" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="430" width="385" height="130" as="geometry" />
         </mxCell>
@@ -331,16 +343,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-15" value="x2_setup_req_evt_hdl" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-1">
-          <mxGeometry x="550" y="280" width="200" height="200" as="geometry" />
+          <mxGeometry x="525" y="280" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_build_x2setup_resp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
           <mxGeometry x="25" y="40" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-27" value="x2ap_update_cell_info_for_req" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
-          <mxGeometry x="10" y="87.5" width="180" height="25" as="geometry" />
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-27" value="x2ap_update_cell_info_for_req&lt;div&gt;-&amp;gt; fill NCRT + chuyen NC sang ACTIVE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
+          <mxGeometry x="10" y="105" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-28" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_served_cell_info_update&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
-          <mxGeometry x="13.75" y="120" width="172.5" height="30" as="geometry" />
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-28" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_served_cell_info_update&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;-&amp;gt; fll thông tin cell của Peer&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
+          <mxGeometry x="22.5" y="160" width="205" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-5" target="NYHd2ZrHECOrhbtWjlzU-6">
           <mxGeometry relative="1" as="geometry" />
@@ -360,6 +372,15 @@
           <mxGeometry x="0.4152" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="115" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-27" target="NYHd2ZrHECOrhbtWjlzU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-28" target="NYHd2ZrHECOrhbtWjlzU-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
