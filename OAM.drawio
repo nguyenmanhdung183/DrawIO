@@ -312,7 +312,37 @@
           <mxGeometry x="-730" y="720" width="440" height="460" as="geometry" />
         </mxCell>
         <mxCell id="4SOa410NmmghQBkVjJKv-3" value="Local REQ connection to Peer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="980" y="370" width="850" height="620" as="geometry" />
+          <mxGeometry x="970" y="360" width="850" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_request_msg_init&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="10" y="505" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-40" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_update_cell_info_for_resp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="450" y="175" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4SOa410NmmghQBkVjJKv-3" source="NYHd2ZrHECOrhbtWjlzU-41" target="NYHd2ZrHECOrhbtWjlzU-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_resp_evt_hdl&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="450" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4SOa410NmmghQBkVjJKv-3" source="NYHd2ZrHECOrhbtWjlzU-43" target="NYHd2ZrHECOrhbtWjlzU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-43" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_sm[&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;X2_SETUP_W_X2_SETUP_RESP_ST][X2_SETUP_RESP_EV]&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="430" y="340" width="300" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4SOa410NmmghQBkVjJKv-3" source="NYHd2ZrHECOrhbtWjlzU-44" target="NYHd2ZrHECOrhbtWjlzU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_sm_entry(X2_SETUP_RESP_EV,...)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="430" y="430" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4SOa410NmmghQBkVjJKv-3" source="NYHd2ZrHECOrhbtWjlzU-46" target="NYHd2ZrHECOrhbtWjlzU-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-46" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_sctp_rcv_data(api = X2_SETUP_RESP)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="430" y="515" width="300" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ connection to Local" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="980" y="-310" width="820" height="580" as="geometry" />
@@ -345,7 +375,7 @@
           <mxGeometry x="525" y="280" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_build_x2setup_resp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
-          <mxGeometry x="25" y="40" width="150" height="40" as="geometry" />
+          <mxGeometry x="50" y="40" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-27" value="x2ap_update_cell_info_for_req&lt;div&gt;-&amp;gt; fill NCRT + chuyen NC sang ACTIVE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-15">
           <mxGeometry x="10" y="105" width="230" height="40" as="geometry" />
@@ -356,7 +386,7 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-5" target="NYHd2ZrHECOrhbtWjlzU-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-34" value="SETUP_REQ ()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-22">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-34" value="SETUP_REQ (...)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#07acf2, #ededed);" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-22">
           <mxGeometry x="-0.1887" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -386,8 +416,24 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-28" target="NYHd2ZrHECOrhbtWjlzU-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-36" target="NYHd2ZrHECOrhbtWjlzU-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-53" value="SETUP_RESPONSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-47">
+          <mxGeometry x="-0.0002" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-36" value="Peer eNB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1080" width="60" height="80" as="geometry" />
+          <mxGeometry x="1040" y="1080" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NYHd2ZrHECOrhbtWjlzU-39" target="NYHd2ZrHECOrhbtWjlzU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-55" value="&lt;font style=&quot;&quot;&gt;SETUP_REQ&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#007FFF;" vertex="1" connectable="0" parent="NYHd2ZrHECOrhbtWjlzU-54">
+          <mxGeometry x="0.3684" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
