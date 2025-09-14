@@ -709,7 +709,7 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-214" value="mô phỏng trường hợp peer gửi REQ trước&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1960" y="-270" width="410" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="lavZRm7Uc8NezjfQU4UO-1" value="#define MAX_PEER_ENB 128&lt;div&gt;#define MAX_ENB_POOL&lt;/div&gt;&lt;div&gt;MAX_CELL_IN_ENB 8&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#MAX_NUM_PEER_ENB&lt;/div&gt;&lt;div&gt;enum -&amp;gt; NUM_PEER_ENB_ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+        <mxCell id="lavZRm7Uc8NezjfQU4UO-1" value="#define MAX_PEER_ENB 128&lt;div&gt;&lt;div&gt;#MAX_NUM_PEER_ENB&lt;/div&gt;&lt;div&gt;#define MAX_ENB_POOL&lt;/div&gt;&lt;div&gt;#MAX_CELL_IN_ENB 8&lt;/div&gt;&lt;div&gt;#MAX_NR_NEIGHBOURS&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;enum -&amp;gt; NUM_PEER_ENB_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
           <mxGeometry x="-830" y="-190" width="430" height="420" as="geometry" />
         </mxCell>
       </root>
