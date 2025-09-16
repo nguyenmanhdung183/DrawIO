@@ -350,6 +350,9 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-62" value="cell_setup_ind_tmr_exp_hdl" style="swimlane;whiteSpace=wrap;html=1;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
           <mxGeometry x="400" y="315" width="200" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="eY6HtPtPmA_nyLDY5sR0-5" value="cell setup timer exp&lt;div&gt;-&amp;gt; start after oam prov req&lt;/div&gt;&lt;div&gt;-&amp;gt; wf cell setup&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-62">
+          <mxGeometry x="20" y="27.5" width="160" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4SOa410NmmghQBkVjJKv-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1170" y="422" as="sourcePoint" />
@@ -400,6 +403,9 @@
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-76" value="csc_cell_status_resp_hdl" style="swimlane;whiteSpace=wrap;html=1;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
           <mxGeometry x="1310" y="315" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eY6HtPtPmA_nyLDY5sR0-4" value="cell setup is UP from CSC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-76">
+          <mxGeometry x="20" y="42.5" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="4SOa410NmmghQBkVjJKv-3" edge="1">
           <mxGeometry relative="1" as="geometry">
