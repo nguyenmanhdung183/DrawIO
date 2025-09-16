@@ -350,8 +350,8 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-62" value="cell_setup_ind_tmr_exp_hdl" style="swimlane;whiteSpace=wrap;html=1;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
           <mxGeometry x="400" y="315" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="eY6HtPtPmA_nyLDY5sR0-5" value="cell setup timer exp&lt;div&gt;-&amp;gt; start after oam prov req&lt;/div&gt;&lt;div&gt;-&amp;gt; wf cell setup&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-62">
-          <mxGeometry x="20" y="27.5" width="160" height="60" as="geometry" />
+        <mxCell id="eY6HtPtPmA_nyLDY5sR0-5" value="cell setup timer exp&lt;div&gt;-&amp;gt; start after oam prov req&lt;/div&gt;&lt;div&gt;-&amp;gt; wf cell setup&lt;/div&gt;&lt;div&gt;--&amp;gt; check active cell -&amp;gt; send req&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NYHd2ZrHECOrhbtWjlzU-62">
+          <mxGeometry x="5" y="22.5" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="4SOa410NmmghQBkVjJKv-3" edge="1">
           <mxGeometry relative="1" as="geometry">
