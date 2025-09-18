@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="3668" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3042" dy="1745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -598,6 +598,9 @@
             <mxPoint x="331" y="23" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="19zuhCl2BS3uZS47GSqz-3" value="gửi thông tin về&amp;nbsp;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="4SOa410NmmghQBkVjJKv-3">
+          <mxGeometry x="490" y="600" width="320" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ connection to Local" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="980" y="-310" width="820" height="580" as="geometry" />
         </mxCell>
@@ -946,6 +949,9 @@
           <mxGeometry x="0.5483" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="19zuhCl2BS3uZS47GSqz-1" value="nếu thông tin về NC của Peer trùng với thông tin cell của mình thì thực hiện đổi trạng thái của cell thanh ACTIVE (ncrt) + lưu cell đó vào glb_ctx của mình (peer + ncrt)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="105" width="250" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
