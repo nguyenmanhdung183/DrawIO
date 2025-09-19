@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="3127" dy="1868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2376" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -940,6 +940,11 @@
               <mxPoint x="880" y="-280" />
               <mxPoint x="320" y="-280" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XB18mXoyb5me32aE3LNV-62" value="LINKUP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vLWtz0b1ODi9Tag_AJWX-1">
+          <mxGeometry x="0.5708" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="19zuhCl2BS3uZS47GSqz-1" value="nếu thông tin về NC của Peer trùng với thông tin cell của mình thì thực hiện đổi trạng thái của cell thanh ACTIVE (ncrt) + lưu cell đó vào glb_ctx của mình (peer + ncrt) + gui thong tin CELL cua minh ma la trung voi NC tu REQ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
