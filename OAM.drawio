@@ -1053,9 +1053,9 @@
             <mxPoint x="840" y="-750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XB18mXoyb5me32aE3LNV-56" value="ADD ENB REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XB18mXoyb5me32aE3LNV-46">
+        <mxCell id="XB18mXoyb5me32aE3LNV-56" value="ADD ENB REQ(add Peer)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XB18mXoyb5me32aE3LNV-46">
           <mxGeometry x="-0.2579" y="1" relative="1" as="geometry">
-            <mxPoint x="-8" as="offset" />
+            <mxPoint x="-15" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -1070,13 +1070,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-58" value="Trigger cho gửi SETUP_REQ cho Peer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="-780" width="330" height="50" as="geometry" />
+          <mxGeometry x="995" y="-770" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-59" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;TẤT CẢ THÔNG TIN VỀ CELL - GHI BẢN TIN Ở A4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="995" y="-910" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-61" value="send to mgnt(CLI, WEB, SNMP)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="-820" width="330" height="40" as="geometry" />
+          <mxGeometry x="970" y="-820" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
