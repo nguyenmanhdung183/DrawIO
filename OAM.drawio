@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2434" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2586" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1042,7 +1042,7 @@
             <mxPoint x="710" y="-900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XB18mXoyb5me32aE3LNV-50" value="CELL CONFIG REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XB18mXoyb5me32aE3LNV-45">
+        <mxCell id="XB18mXoyb5me32aE3LNV-50" value="RRM_OAM_CELL_CONFIG_REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XB18mXoyb5me32aE3LNV-45">
           <mxGeometry x="-0.3169" y="-2" relative="1" as="geometry">
             <mxPoint x="-48" as="offset" />
           </mxGeometry>
