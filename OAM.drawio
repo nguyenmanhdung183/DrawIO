@@ -1086,7 +1086,7 @@
         <mxCell id="XB18mXoyb5me32aE3LNV-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="-880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XB18mXoyb5me32aE3LNV-64" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 YÊU CẦU PEER BẬT CELL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="XB18mXoyb5me32aE3LNV-64" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 YÊU CẦU PEER BẬT CELL&lt;/div&gt;&lt;div&gt;- RRM BÁO CHO X2 LÀ ENB ĐÃ LINKUP/ LINKDOWN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1370" y="-820" width="680" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zyNUaPdvNZ-VWw5J61P9-1" value="&lt;div&gt;-SON CÓ THỂ BẢO X2 ADD/DELL ENB&lt;/div&gt;&lt;div&gt;- SON CÓ THỂ BẢO X2 ACTIVE PEER CELL&lt;/div&gt;&lt;div&gt;- SON BÁO CHO X2 LÀ ĐÃ LINKUP/LINKDOWN&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
