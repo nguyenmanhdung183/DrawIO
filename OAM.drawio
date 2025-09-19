@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2528" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2817" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,7 +500,7 @@
             <mxPoint x="330" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-183" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_process_csc_cell_del&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="NYHd2ZrHECOrhbtWjlzU-205" vertex="1">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-183" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;strike&gt;x2ap_process_csc_cell_del&lt;/strike&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="NYHd2ZrHECOrhbtWjlzU-205" vertex="1">
           <mxGeometry y="440" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="NYHd2ZrHECOrhbtWjlzU-205" source="NYHd2ZrHECOrhbtWjlzU-182" edge="1">
@@ -597,9 +597,6 @@
             <mxPoint x="331" y="663" as="sourcePoint" />
             <mxPoint x="331" y="23" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="19zuhCl2BS3uZS47GSqz-3" value="gửi thông tin về&amp;nbsp;" style="shape=card;whiteSpace=wrap;html=1;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
-          <mxGeometry x="490" y="600" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-1" value="Peer REQ connection to Local" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="980" y="-310" width="820" height="580" as="geometry" />
@@ -951,8 +948,8 @@
         <mxCell id="XB18mXoyb5me32aE3LNV-1" value="lỗi: oam_cm_layer_handler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="-450" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XB18mXoyb5me32aE3LNV-4" value="khi OAM nhận được X2_PROV_RESP -&amp;gt; gửi thông tin oam_rrm_cell_config_req đến cho RRM&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="338" y="-360" width="552" height="40" as="geometry" />
+        <mxCell id="XB18mXoyb5me32aE3LNV-4" value="khi OAM nhận được X2_PROV_RESP -&amp;gt; gửi thông tin oam_rrm_cell_config_req_t /&amp;nbsp; RRM_OAM_ CELL_CONFIG _ REQ đến cho RRM&amp;nbsp;&lt;div&gt;khi RRM config xong nó sẽ báo cho&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-360" width="760" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
