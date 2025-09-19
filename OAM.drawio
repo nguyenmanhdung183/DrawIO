@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2817" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2651" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1082,6 +1082,12 @@
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-61" value="send to mgnt(CLI, WEB, SNMP)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="970" y="-820" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XB18mXoyb5me32aE3LNV-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XB18mXoyb5me32aE3LNV-64" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 KẾT NỐI VỚI PEER + ACTIVE NC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="-820" width="680" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
