@@ -1084,13 +1084,16 @@
           <mxGeometry x="970" y="-820" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="-880" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="-840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-64" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 YÊU CẦU PEER BẬT CELL&lt;/div&gt;&lt;div&gt;- RRM BÁO CHO X2 LÀ ENB ĐÃ LINKUP/ LINKDOWN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1370" y="-820" width="680" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zyNUaPdvNZ-VWw5J61P9-1" value="&lt;div&gt;-SON CÓ THỂ BẢO X2 ADD/DELL ENB&lt;/div&gt;&lt;div&gt;- SON CÓ THỂ BẢO X2 ACTIVE PEER CELL&lt;/div&gt;&lt;div&gt;- SON BÁO CHO X2 LÀ ĐÃ LINKUP/LINKDOWN&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1370" y="-1020" width="680" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-2" value="RRM --cell_add---&amp;gt; CSC -------- cell config req --&amp;gt; LLIM&lt;div&gt;LLIM ----cell cfg resp----&amp;gt; CSC ----&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cell add ind----&amp;gt; S1AP/OAMH/X2AP/RRM&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="1350" width="540" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
