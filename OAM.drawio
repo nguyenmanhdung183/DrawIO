@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="3176" dy="2909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3340" dy="2988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -707,12 +707,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-209" value="Mô phỏng Peer:&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ Peer gửi REQ trước&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ Peer nhận REQ&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mô phỏng Local:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ Xóa các module ko liên quan&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ Sửa config&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="-500" width="420" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-214" value="mô phỏng trường hợp peer gửi REQ trước&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="-270" width="410" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="lavZRm7Uc8NezjfQU4UO-1" value="#MAX_PEER_ENB 128&lt;div&gt;&lt;div&gt;#MAX_NUM_PEER_ENB 64&lt;/div&gt;&lt;div&gt;#MAX_ENB_POOL&lt;/div&gt;&lt;div&gt;#MAX_CELL_IN_ENB 8&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;enum -&amp;gt; NUM_PEER_ENB_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;#MAX_NR_NEIGHBOURS&lt;/div&gt;&lt;/div&gt;&lt;div&gt;#MAX_NEIGHBOURS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#SON_MAX_NO_NEIGHBOURS_ENBS&lt;/div&gt;&lt;div&gt;#OAM_MAX_LTE_NBR_CELL_NUM_ENTRIES 32&lt;/div&gt;&lt;div&gt;#&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OAM_MAX_UMTS_NBR_CELL_NUM_ENTRIES&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;32&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
           <mxGeometry x="-830" y="-190" width="430" height="420" as="geometry" />
         </mxCell>
@@ -1083,20 +1077,71 @@
         <mxCell id="XB18mXoyb5me32aE3LNV-61" value="send to mgnt(CLI, WEB, SNMP)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="-820" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XB18mXoyb5me32aE3LNV-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="-840" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="XB18mXoyb5me32aE3LNV-64" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 YÊU CẦU PEER BẬT CELL&lt;/div&gt;&lt;div&gt;- RRM BÁO CHO X2 LÀ ENB ĐÃ LINKUP/ LINKDOWN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="-820" width="680" height="100" as="geometry" />
+          <mxGeometry x="1950" y="-560" width="680" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zyNUaPdvNZ-VWw5J61P9-1" value="&lt;div&gt;-SON CÓ THỂ BẢO X2 ADD/DELL ENB&lt;/div&gt;&lt;div&gt;- SON CÓ THỂ BẢO X2 ACTIVE PEER CELL&lt;/div&gt;&lt;div&gt;- SON BÁO CHO X2 LÀ ĐÃ LINKUP/LINKDOWN&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="-1020" width="680" height="100" as="geometry" />
+          <mxGeometry x="1950" y="-680" width="680" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-2" value="RRM --cell_add---&amp;gt; CSC -------- cell config req --&amp;gt; LLIM&lt;div&gt;LLIM ----cell cfg resp----&amp;gt; CSC ----&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cell add ind----&amp;gt; S1AP/OAMH/X2AP/RRM&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2440" y="1230" width="540" height="70" as="geometry" />
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-3" value="Luồng gửi SETUP_REQ đến cho PEER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="-1120" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-4" value="RRM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="-1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4_4Zjr-2GPfo3TS9L07-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1720" y="-810" as="sourcePoint" />
+            <mxPoint x="2140" y="-1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-6" value="CSC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="-1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4_4Zjr-2GPfo3TS9L07-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="-810" as="sourcePoint" />
+            <mxPoint x="2370" y="-1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-8" value="LLIM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4_4Zjr-2GPfo3TS9L07-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2180" y="-810" as="sourcePoint" />
+            <mxPoint x="2600" y="-1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-10" value="X2AP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="-1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4_4Zjr-2GPfo3TS9L07-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2480" y="-810" as="sourcePoint" />
+            <mxPoint x="2900" y="-1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-12" value="OAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="-1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4_4Zjr-2GPfo3TS9L07-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2720" y="-810" as="sourcePoint" />
+            <mxPoint x="3140" y="-1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-14" value="S1AP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="-1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="i4_4Zjr-2GPfo3TS9L07-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2990" y="-810" as="sourcePoint" />
+            <mxPoint x="3410" y="-1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
