@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2978" dy="2881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3204" dy="3001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -309,7 +309,7 @@
           <mxGeometry x="350" y="60" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4SOa410NmmghQBkVjJKv-3" value="Local REQ connection to Peer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="910" y="400" width="2280" height="780" as="geometry" />
+          <mxGeometry x="910" y="400" width="2470" height="780" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_request_msg_init&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
           <mxGeometry x="530" y="490" width="190" height="55" as="geometry" />
@@ -454,7 +454,7 @@
             <mxPoint x="-1" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-86" value="x2setup_sm[][]" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-86" value="x2setup_sm[][]" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4SOa410NmmghQBkVjJKv-3" vertex="1">
           <mxGeometry x="910" y="130" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4SOa410NmmghQBkVjJKv-3" source="NYHd2ZrHECOrhbtWjlzU-86" target="NYHd2ZrHECOrhbtWjlzU-75" edge="1">
@@ -580,7 +580,7 @@
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-187" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2ap_process_timer_msg&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="NYHd2ZrHECOrhbtWjlzU-205" vertex="1">
           <mxGeometry y="640" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NYHd2ZrHECOrhbtWjlzU-188" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_sm_entry&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="NYHd2ZrHECOrhbtWjlzU-205" vertex="1">
+        <mxCell id="NYHd2ZrHECOrhbtWjlzU-188" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;x2setup_sm_entry&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="NYHd2ZrHECOrhbtWjlzU-205" vertex="1">
           <mxGeometry x="380" y="267.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NYHd2ZrHECOrhbtWjlzU-189" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="NYHd2ZrHECOrhbtWjlzU-205" source="NYHd2ZrHECOrhbtWjlzU-180" target="NYHd2ZrHECOrhbtWjlzU-188" edge="1">
@@ -1071,12 +1071,6 @@
         <mxCell id="XB18mXoyb5me32aE3LNV-61" value="send to mgnt(CLI, WEB, SNMP)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1264.15" y="-990" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XB18mXoyb5me32aE3LNV-64" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 YÊU CẦU PEER BẬT CELL&lt;/div&gt;&lt;div&gt;- RRM BÁO CHO X2 LÀ ENB ĐÃ LINKUP/ LINKDOWN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="-560" width="680" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="zyNUaPdvNZ-VWw5J61P9-1" value="&lt;div&gt;-SON CÓ THỂ BẢO X2 ADD/DELL ENB&lt;/div&gt;&lt;div&gt;- SON CÓ THỂ BẢO X2 ACTIVE PEER CELL&lt;/div&gt;&lt;div&gt;- SON BÁO CHO X2 LÀ ĐÃ LINKUP/LINKDOWN&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="-680" width="680" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-2" value="RRM --cell_add---&amp;gt; CSC -------- cell config req --&amp;gt; LLIM&lt;div&gt;LLIM ----cell cfg resp----&amp;gt; CSC ----&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cell add ind----&amp;gt; S1AP/OAMH/X2AP/RRM&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2440" y="1230" width="540" height="70" as="geometry" />
         </mxCell>
@@ -1244,8 +1238,8 @@
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-38" value="Luồng gửi SETUP_CONFIG đến cho PEER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1680" y="-1390" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i4_4Zjr-2GPfo3TS9L07-39" value="+ CHECK LẠI ĐOẠN CSC CELL SETUP XEM CÓ GỬI KẾT NỐI ĐẾN PEER HAY KO&amp;nbsp;&lt;div&gt;- CELL CONFIG GỬI ĐẾN PEER GỒM GÌ, CÓ BỊ BỎ QUA KHI CHƯA CÓ ASSO KO, NẾU NHẬN CELL CONFIG RESP CỦA PEER THÌ LÀM GÌ&lt;/div&gt;&lt;div&gt;- CSC GỬI CELL CONFIG ĐẾN LLIM THÌ CÓ GỬI THÊM CELL START HAY GÌ KO&lt;/div&gt;&lt;div&gt;- TẠI SAO CSC BÁO TRẠNG THÁI CELL LÊN THÌ X2 GỬI SETUP_REQ CHO PEER, CÓ ĐIỀU KIỆN GÌ KO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1184.15" y="-790" width="490" height="90" as="geometry" />
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-39" value="+ CHECK LẠI ĐOẠN CSC CELL SETUP XEM CÓ GỬI KẾT NỐI ĐẾN PEER HAY KO&amp;nbsp;&lt;div&gt;- CELL CONFIG GỬI ĐẾN PEER GỒM GÌ, CÓ BỊ BỎ QUA KHI CHƯA CÓ ASSO KO, NẾU NHẬN CELL CONFIG RESP CỦA PEER THÌ LÀM GÌ&lt;/div&gt;&lt;div&gt;+ CSC GỬI CELL CONFIG ĐẾN LLIM THÌ CÓ GỬI THÊM CELL START HAY GÌ KO&lt;/div&gt;&lt;div&gt;+ TẠI SAO CSC BÁO TRẠNG THÁI CELL LÊN THÌ X2 GỬI SETUP_REQ CHO PEER, CÓ ĐIỀU KIỆN GÌ KO&lt;/div&gt;&lt;div&gt;- ĐOẠN RRM_MIF GỬI CELL CNF ĐẾN CHO RRM_CM THÌ RRM CM CÓ CẦN BÁO ĐẾN LLIM ĐỂ START CELL KHÔNG, HAY CHECK GÌ TRƯỚC KHI GỬI CELL RESP LÊN LẠI&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="-790" width="670" height="140" as="geometry" />
         </mxCell>
         <mxCell id="_V48cZChYhCdC0HVL6j5-1" value="OAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-990" y="-1890" width="60" height="30" as="geometry" />
@@ -1378,9 +1372,6 @@
         <mxCell id="3G2L6AYIWRYy6TFnzewi-10" value="....." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="780" y="-1130" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3G2L6AYIWRYy6TFnzewi-12" value="SON/OAM báo add cell thì kết nối với PEER ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3210" y="660" width="260" height="370" as="geometry" />
-        </mxCell>
         <mxCell id="3G2L6AYIWRYy6TFnzewi-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2410" y="-880" as="sourcePoint" />
@@ -1464,7 +1455,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3G2L6AYIWRYy6TFnzewi-33" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CNF MAC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="-1121.25" width="60" height="11.25" as="geometry" />
+          <mxGeometry x="2180" y="-1120.62" width="60" height="11.25" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-35" value="&lt;div&gt;- RRM CÓ THỂ YÊU CẦU X2 LẤY THÔNG TIN RESOURCE CỦA PEER QUA RSU&lt;/div&gt;- RRM CÓ THỂ BẢO RRMCM CELL START&lt;div&gt;- RRM CÓ THỂ BẢO X2 YÊU CẦU PEER BẬT CELL&lt;/div&gt;&lt;div&gt;- RRM BÁO CHO X2 LÀ ENB ĐÃ LINKUP/ LINKDOWN&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="770" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-36" value="&lt;div&gt;-SON CÓ THỂ BẢO X2 ADD/DELL ENB&lt;/div&gt;&lt;div&gt;- SON CÓ THỂ BẢO X2 ACTIVE PEER CELL&lt;/div&gt;&lt;div&gt;- SON BÁO CHO X2 LÀ ĐÃ LINKUP/LINKDOWN&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="660" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-12" value="SON/OAM báo add cell thì kết nối với PEER ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="880" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-34" value="CSC gửi Status cho X2 -&amp;gt; nếu chưa có ASSC thì ko làm gì -&amp;gt; nếu (đang ở ILDE(chưa có SETUP) + có ASSC) gọi x2setup_req_msg_init()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="990" width="346.7" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
