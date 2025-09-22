@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2765" dy="2768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2309" dy="2524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1154,9 +1154,9 @@
             <mxPoint x="2180" y="-1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i4_4Zjr-2GPfo3TS9L07-31" value="CELL CONFIG REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4_4Zjr-2GPfo3TS9L07-20" vertex="1" connectable="0">
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-31" value="CSC_LLIM_CONFIG_CELL_REQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4_4Zjr-2GPfo3TS9L07-20" vertex="1" connectable="0">
           <mxGeometry x="-0.1784" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -1198,7 +1198,7 @@
             <mxPoint x="2410" y="-950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i4_4Zjr-2GPfo3TS9L07-35" value="CELL ADD/ SETUP IND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4_4Zjr-2GPfo3TS9L07-25" vertex="1" connectable="0">
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-35" value="X2AP_CSC_CELL_ADD/ SETUP_IND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i4_4Zjr-2GPfo3TS9L07-25" vertex="1" connectable="0">
           <mxGeometry x="0.1649" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1241,7 +1241,7 @@
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-38" value="Luồng gửi SETUP_CONFIG đến cho PEER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1680" y="-1390" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i4_4Zjr-2GPfo3TS9L07-39" value="- CHECK LẠI ĐOẠN CSC CELL SETUP XEM CÓ GỬI KẾT NỐI ĐẾN PEER HAY KO&amp;nbsp;&lt;div&gt;- CELL CONFIG GỬI ĐẾN PEER GỒM GÌ, CÓ BỊ BỎ QUA KHI CHƯA CÓ ASSO KO, NẾU NHẬN CELL CONFIG RESP CỦA PEER THÌ LÀM GÌ&lt;/div&gt;&lt;div&gt;- CSC GỬI CELL CONFIG ĐẾN LLIM THÌ CÓ GỬI THÊM CELL START HAY GÌ KO&lt;/div&gt;&lt;div&gt;- TẠI SAO CSC BÁO TRẠNG THÁI CELL LÊN THÌ X2 GỬI SETUP_REQ CHO PEER, CÓ ĐIỀU KIỆN GÌ KO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-39" value="+ CHECK LẠI ĐOẠN CSC CELL SETUP XEM CÓ GỬI KẾT NỐI ĐẾN PEER HAY KO&amp;nbsp;&lt;div&gt;- CELL CONFIG GỬI ĐẾN PEER GỒM GÌ, CÓ BỊ BỎ QUA KHI CHƯA CÓ ASSO KO, NẾU NHẬN CELL CONFIG RESP CỦA PEER THÌ LÀM GÌ&lt;/div&gt;&lt;div&gt;- CSC GỬI CELL CONFIG ĐẾN LLIM THÌ CÓ GỬI THÊM CELL START HAY GÌ KO&lt;/div&gt;&lt;div&gt;- TẠI SAO CSC BÁO TRẠNG THÁI CELL LÊN THÌ X2 GỬI SETUP_REQ CHO PEER, CÓ ĐIỀU KIỆN GÌ KO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1184.15" y="-790" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_V48cZChYhCdC0HVL6j5-1" value="OAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1428,6 +1428,26 @@
         </mxCell>
         <mxCell id="3G2L6AYIWRYy6TFnzewi-24" value="Trigger cho gửi SETUP_REQ cho Peer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3030" y="-900" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-25" value="PHY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="-1245" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="3G2L6AYIWRYy6TFnzewi-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2320" y="-810" as="sourcePoint" />
+            <mxPoint x="2735" y="-1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2180" y="-1150" as="sourcePoint" />
+            <mxPoint x="2320" y="-1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;RRC_PHY_CONFIG_CELL_REQ&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3G2L6AYIWRYy6TFnzewi-27">
+          <mxGeometry x="-0.0949" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
