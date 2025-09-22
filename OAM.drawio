@@ -1075,7 +1075,7 @@
           <mxGeometry x="2440" y="1230" width="540" height="70" as="geometry" />
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-3" value="Luồng gửi SETUP_REQ đến cho PEER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="570" y="-1270" width="360" height="30" as="geometry" />
+          <mxGeometry x="570" y="-1260" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-4" value="RRM" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1690" y="-1310" width="120" height="60" as="geometry" />
@@ -1386,8 +1386,8 @@
         <mxCell id="3G2L6AYIWRYy6TFnzewi-14" value="OPTION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2340" y="-910" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3G2L6AYIWRYy6TFnzewi-16" value="&lt;div style=&quot;line-height: 260%;&quot;&gt;&lt;font&gt;-RRM_MIF_M_I (rrm_mif_process_msg): OAM/ SON/ RRM_CM/RRM_UEM&lt;/font&gt;&lt;div&gt;&lt;font&gt;-RRM_CM_M_I (rrm_process_msg):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RRM_CM/ RRM_UEM/ RRM_MIF/ RRC/ PDCP/MAC&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="570" y="-1370" width="530" height="70" as="geometry" />
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-16" value="&lt;div style=&quot;line-height: 260%;&quot;&gt;&lt;font&gt;-RRM_MIF_M_I (rrm_mif_process_msg): OAM/ SON/ RRM_CM/RRM_UEM&lt;/font&gt;&lt;div&gt;&lt;font&gt;-RRM_CM_M_I (rrm_process_msg):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RRM_CM/ RRM_UEM/ RRM_MIF/ RRC/ PDCP/MAC&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-RRM_UEM_M_I : SON/ RRC/ MAC/ PDCP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;u&gt;(chi tiết hơn phụ thuộc API)&lt;/u&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="560" y="-1380" width="600" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3G2L6AYIWRYy6TFnzewi-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
