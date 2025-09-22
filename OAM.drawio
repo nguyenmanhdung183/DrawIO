@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2843" dy="2874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5291" dy="4317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -307,9 +307,6 @@
         </mxCell>
         <mxCell id="nEFYsT-crpDZ1YoU7cJc-176" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="350" y="60" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7GoscIbdtp-0AamT8vIT-2" value="x2ap_gb_context_t&lt;div&gt;comm_info_init_params_t&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-730" y="720" width="440" height="460" as="geometry" />
         </mxCell>
         <mxCell id="4SOa410NmmghQBkVjJKv-3" value="Local REQ connection to Peer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="910" y="400" width="2280" height="780" as="geometry" />
@@ -706,9 +703,6 @@
           <mxGeometry x="0.661" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lavZRm7Uc8NezjfQU4UO-1" value="#MAX_PEER_ENB 128&lt;div&gt;&lt;div&gt;#MAX_NUM_PEER_ENB 64&lt;/div&gt;&lt;div&gt;#MAX_ENB_POOL&lt;/div&gt;&lt;div&gt;#MAX_CELL_IN_ENB 8&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;enum -&amp;gt; NUM_PEER_ENB_ID&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;#MAX_NR_NEIGHBOURS&lt;/div&gt;&lt;/div&gt;&lt;div&gt;#MAX_NEIGHBOURS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#SON_MAX_NO_NEIGHBOURS_ENBS&lt;/div&gt;&lt;div&gt;#OAM_MAX_LTE_NBR_CELL_NUM_ENTRIES 32&lt;/div&gt;&lt;div&gt;#&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OAM_MAX_UMTS_NBR_CELL_NUM_ENTRIES&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;32&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-830" y="-190" width="430" height="420" as="geometry" />
         </mxCell>
         <mxCell id="eY6HtPtPmA_nyLDY5sR0-1" value="cell setup is UP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1515" y="748" width="110" height="30" as="geometry" />
@@ -1246,8 +1240,8 @@
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-38" value="Luồng gửi SETUP_CONFIG đến cho PEER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1610" y="-1390" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i4_4Zjr-2GPfo3TS9L07-39" value="- CHECK LẠI ĐOẠN CSC CELL SETUP XEM CÓ GỬI KẾT NỐI ĐẾN PEER HAY KO&amp;nbsp;&lt;div&gt;- CELL CONFIG GỬI ĐẾN PEER GỒM GÌ, CÓ BỊ BỎ QUA KHI CHƯA CÓ ASSO KO, NẾU NHẬN RESP CỦA PEER THÌ LÀM GÌ&lt;/div&gt;&lt;div&gt;- CSC GỬI CELL CONFIG ĐẾN LLIM THÌ CÓ GỬI THÊM CELL START HAY GÌ KO&lt;/div&gt;&lt;div&gt;- TẠI SAO CSC BÁO TRẠNG THÁI CELL LÊN THÌ X2 GỬI SETUP_REQ CHO PEER, CÓ ĐIỀU KIỆN GÌ KO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1310" y="-690" width="490" height="90" as="geometry" />
+        <mxCell id="i4_4Zjr-2GPfo3TS9L07-39" value="- CHECK LẠI ĐOẠN CSC CELL SETUP XEM CÓ GỬI KẾT NỐI ĐẾN PEER HAY KO&amp;nbsp;&lt;div&gt;- CELL CONFIG GỬI ĐẾN PEER GỒM GÌ, CÓ BỊ BỎ QUA KHI CHƯA CÓ ASSO KO, NẾU NHẬN CELL CONFIG RESP CỦA PEER THÌ LÀM GÌ&lt;/div&gt;&lt;div&gt;- CSC GỬI CELL CONFIG ĐẾN LLIM THÌ CÓ GỬI THÊM CELL START HAY GÌ KO&lt;/div&gt;&lt;div&gt;- TẠI SAO CSC BÁO TRẠNG THÁI CELL LÊN THÌ X2 GỬI SETUP_REQ CHO PEER, CÓ ĐIỀU KIỆN GÌ KO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1184.15" y="-790" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_V48cZChYhCdC0HVL6j5-1" value="OAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-990" y="-1890" width="60" height="30" as="geometry" />
@@ -1379,6 +1373,9 @@
         </mxCell>
         <mxCell id="3G2L6AYIWRYy6TFnzewi-10" value="....." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="780" y="-1130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-12" value="SON/OAM báo add cell thì kết nối với PEER ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3210" y="660" width="260" height="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
