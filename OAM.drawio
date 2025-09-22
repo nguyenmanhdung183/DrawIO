@@ -1236,7 +1236,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-37" value="LUỒNG //" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="-1050" width="70" height="20" as="geometry" />
+          <mxGeometry x="530" y="-1055" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i4_4Zjr-2GPfo3TS9L07-38" value="Luồng gửi SETUP_CONFIG đến cho PEER" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1680" y="-1390" width="360" height="30" as="geometry" />
