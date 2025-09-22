@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4" pages="3">
   <diagram name="LTE" id="iWgtHmf446mTZc4ntef-">
-    <mxGraphModel dx="2450" dy="2630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2776" dy="2817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1386,8 +1386,8 @@
         <mxCell id="3G2L6AYIWRYy6TFnzewi-14" value="OPTION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2340" y="-910" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3G2L6AYIWRYy6TFnzewi-16" value="&lt;div style=&quot;line-height: 260%;&quot;&gt;&lt;font&gt;-RRM_MIF_M_I (rrm_mif_process_msg): OAM/ SON/ RRM_CM/RRM_UEM&lt;/font&gt;&lt;div&gt;&lt;font&gt;-RRM_CM_M_I (rrm_process_msg):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RRM_CM/ RRM_UEM/ RRM_MIF/ RRC/ PDCP/MAC&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-RRM_UEM_M_I : SON/ RRC/ MAC/ PDCP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;u&gt;(chi tiết hơn phụ thuộc API)&lt;/u&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="560" y="-1380" width="600" height="110" as="geometry" />
+        <mxCell id="3G2L6AYIWRYy6TFnzewi-16" value="&lt;div style=&quot;line-height: 260%;&quot;&gt;&lt;font&gt;-RRM_MIF_M_I (rrm_mif_process_msg): OAM/ SON/ RRM_CM/RRM_UEM&lt;/font&gt;&lt;div&gt;&lt;font&gt;-RRM_CM_M_I (rrm_process_msg):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RRM_CM/ RRM_UEM/ RRM_MIF/ RRC/ PDCP/MAC&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-RRM_UEM_M_I : RRC/ MAC/ PDCP&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;u&gt;(chi tiết hơn phụ thuộc API)&lt;/u&gt;&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-1560" width="500" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3G2L6AYIWRYy6TFnzewi-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1588,7 +1588,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B8q8gOBNyNrr7Qc6NNo7-1" value="RRM_MODULE_ID (2)&lt;div&gt;xử lý lại dst qua rrm_handle_message()&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B8q8gOBNyNrr7Qc6NNo7-1" value="RRM_MODULE_ID (2) - INTERNAL&lt;div&gt;xử lý lại dst qua rrm_handle_message()&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="580" y="-1560" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="B8q8gOBNyNrr7Qc6NNo7-2" value="RRM_MIF_MODULE_ID 20&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B8q8gOBNyNrr7Qc6NNo7-1">
@@ -1599,6 +1599,18 @@
         </mxCell>
         <mxCell id="B8q8gOBNyNrr7Qc6NNo7-4" value="&lt;div&gt;RRM_UEM_MODULE_ID 22&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RRM_LOGGER_MODULE_ID 23&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B8q8gOBNyNrr7Qc6NNo7-1">
           <mxGeometry y="90" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="B8q8gOBNyNrr7Qc6NNo7-5" value="RRC_MODULE_ID (2) - INTERNAL&lt;div&gt;xử lý lại dst qua *s_receive()&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-1840" width="240" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="B8q8gOBNyNrr7Qc6NNo7-6" value="&lt;div&gt;&lt;div&gt;RRC_OAMH_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(16)&lt;/div&gt;&lt;div&gt;RRC_UECC_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(17)&lt;/div&gt;&lt;div&gt;RRC_CSC_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (18)&lt;/div&gt;&lt;div&gt;RRC_LLIM_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(19)&lt;/div&gt;&lt;div&gt;RRC_SIAP_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(20)&lt;/div&gt;&lt;div&gt;RRC_X2AP_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(21)&lt;/div&gt;&lt;div&gt;RRC_UECCMD_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp;(22)&lt;/div&gt;&lt;div&gt;RRC_UECC_1-8_MODULE_ID&amp;nbsp; &amp;nbsp;(23-30)&lt;/div&gt;&lt;div&gt;RRC_SIU_1-7_MODULE_ID&amp;nbsp; &amp;nbsp; (31-37)&lt;/div&gt;&lt;div&gt;RRC_PCDP_1-8_MODULE_ID&amp;nbsp; &amp;nbsp;(38-45)&lt;/div&gt;&lt;div&gt;RRC_RLC_1-8_MODULE_ID&amp;nbsp; &amp;nbsp; (48-55)&lt;/div&gt;&lt;div&gt;RRC_MAC_1-8_MODULE_ID&amp;nbsp; &amp;nbsp; (56-63)&lt;/div&gt;&lt;div&gt;RRC_PHY_1-8_MODULE_ID&amp;nbsp; &amp;nbsp; (64-71)&lt;/div&gt;&lt;div&gt;RRC_LOGGER_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp;(72)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B8q8gOBNyNrr7Qc6NNo7-5">
+          <mxGeometry y="30" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="B8q8gOBNyNrr7Qc6NNo7-11" value="RRC vs&amp;nbsp; EXTERNAL&lt;div&gt;xử lý lại dst qua *s_receive()&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-1840" width="240" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="B8q8gOBNyNrr7Qc6NNo7-12" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;RRC_OAM_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1)&lt;/div&gt;&lt;div&gt;RRC_RRM_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2)&lt;/div&gt;&lt;div&gt;RRC_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (3)&lt;/div&gt;&lt;div&gt;RRC_S1U_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (4)&lt;/div&gt;&lt;div&gt;RRC_PDCP_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(5)&lt;/div&gt;&lt;div&gt;RRC_RLC_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (6)&lt;/div&gt;&lt;div&gt;RRC_MAC_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (7)&lt;/div&gt;&lt;div&gt;RRC_PHY_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (8)&lt;/div&gt;&lt;div&gt;RRC_MME_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (9)&lt;/div&gt;&lt;div&gt;RRC_X2AP_PEER_eNODEB_ID&amp;nbsp; &amp;nbsp; (10)&lt;/div&gt;&lt;div&gt;RRC_OTRACE_MODULE_ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(11)&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B8q8gOBNyNrr7Qc6NNo7-11">
+          <mxGeometry y="30" width="240" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
