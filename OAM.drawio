@@ -1712,7 +1712,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iK-zFaJnKlHpPGUMkbT-" name="NR">
-    <mxGraphModel dx="3064" dy="1376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4690" dy="2252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1767,9 +1767,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m4AMvH9QxuOh4JbukM9K-1" value="&lt;ul&gt;&lt;li&gt;OAM chưa xử lý XNAP_INIT_IND&lt;/li&gt;&lt;li&gt;X2 ko ignore OAM_msg nếu có SON&lt;/li&gt;&lt;li&gt;OAM khi nhận X2AP_PROVISION_RESP cũng chưa xử lý gì như 4G, chỉ gửi lại RESP&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="630" width="520" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="yX3pPK-tJyHDt1G3ofh5-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1227.5" y="290" as="sourcePoint" />
@@ -1812,7 +1809,7 @@
         <mxCell id="yX3pPK-tJyHDt1G3ofh5-9" value="SON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-827.5" y="-250" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yX3pPK-tJyHDt1G3ofh5-10" value="OAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yX3pPK-tJyHDt1G3ofh5-10" value="OAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-697.5" y="-250" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yX3pPK-tJyHDt1G3ofh5-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -2122,8 +2119,8 @@
         <mxCell id="TLqCh9t5q3yEZrNk5sU2-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;còn RRM_OAM_GNB_CONFIG_REQ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1010" y="-280" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TLqCh9t5q3yEZrNk5sU2-2" value="&lt;span style=&quot;font-size: 8px; text-wrap-mode: nowrap;&quot;&gt;còn RRM_OAM_GNB_CONFIG_REQ&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; text-wrap-mode: nowrap;&quot;&gt;API GỬI LÊN OAM CỦA F1U VÀ NGU GIỐNG NHAU ?????&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="-480" width="270" height="60" as="geometry" />
+        <mxCell id="TLqCh9t5q3yEZrNk5sU2-2" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;còn RRM_OAM_GNB_CONFIG_REQ&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;API GỬI LÊN OAM CỦA F1U VÀ NGU GIỐNG NHAU ?????&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="-470" width="410" height="120" as="geometry" />
         </mxCell>
         <mxCell id="TLqCh9t5q3yEZrNk5sU2-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2131,7 +2128,7 @@
             <mxPoint x="-1817.5" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLqCh9t5q3yEZrNk5sU2-4" value="NGU&lt;div&gt;(egtpu)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TLqCh9t5q3yEZrNk5sU2-4" value="NGU&lt;div&gt;(egtpu)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="-250" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TLqCh9t5q3yEZrNk5sU2-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -2140,7 +2137,7 @@
             <mxPoint x="-1967.5" y="-200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TLqCh9t5q3yEZrNk5sU2-6" value="F1U" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TLqCh9t5q3yEZrNk5sU2-6" value="F1U" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-2010" y="-250" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TLqCh9t5q3yEZrNk5sU2-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -2157,6 +2154,9 @@
         </mxCell>
         <mxCell id="TLqCh9t5q3yEZrNk5sU2-11" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PR_OAM_INIT_LAYER_CNF (package relay)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;PR_OAM_INIT_LAYER_IND&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2130" y="-290" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TLqCh9t5q3yEZrNk5sU2-12" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;OAM chưa xử lý XNAP_INIT_IND&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;X2 ko ignore OAM_msg nếu có SON&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;OAM khi nhận X2AP_PROVISION_RESP cũng chưa xử lý gì như 4G, chỉ gửi lại RESP&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="-650" width="810" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
