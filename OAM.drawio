@@ -1701,10 +1701,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iK-zFaJnKlHpPGUMkbT-" name="NR">
-    <mxGraphModel dx="1639" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1967" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-1" value="CU" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="20" width="600" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-7" value="CU CP" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-1">
+          <mxGeometry x="20" y="50" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-10" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;OAM&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;RRM&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;SON&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;(L3)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-7">
+          <mxGeometry x="10" y="60" width="70" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-11" value="L3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-7">
+          <mxGeometry x="90" y="60" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zVumtZLCYPsTDdLicZgY-1" value="RRC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-11">
+          <mxGeometry x="150" y="45" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zVumtZLCYPsTDdLicZgY-3" value="CSC&lt;div&gt;LLIM&lt;/div&gt;&lt;div&gt;OAMH&lt;/div&gt;&lt;div&gt;UECC&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zVumtZLCYPsTDdLicZgY-1">
+          <mxGeometry x="10" y="35" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zVumtZLCYPsTDdLicZgY-2" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;F1AP&lt;/span&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;NGAP&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;X2AP&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;XNAP&lt;/div&gt;&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;(RRC)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-11">
+          <mxGeometry x="30" y="40" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-8" value="CU UP" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-1">
+          <mxGeometry x="420" y="50" width="160" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="zVumtZLCYPsTDdLicZgY-4" value="PDCP&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-8">
+          <mxGeometry x="30" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-2" value="DU" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="180" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="51XFOfZkOdKCmsZrhDn_-3" value="DUMGR&lt;div&gt;DUOAM&lt;/div&gt;&lt;div&gt;MAC&lt;/div&gt;&lt;div&gt;RLC&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="51XFOfZkOdKCmsZrhDn_-2">
+          <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
