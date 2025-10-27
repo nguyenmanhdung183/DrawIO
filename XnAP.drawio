@@ -973,7 +973,7 @@
         <mxCell id="8r86JPJ58pTuRqmPfgUV-75" value="&amp;nbsp;sctp_conn_down_evt_hdl_sa-&amp;gt;stop timer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1372" y="1290" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8r86JPJ58pTuRqmPfgUV-76" value="xnsetup_request_msg_init,&lt;div&gt;&amp;nbsp;-&amp;gt; send req to peer&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8r86JPJ58pTuRqmPfgUV-76" value="xnsetup_request_msg_init,&lt;div&gt;&amp;nbsp;-&amp;gt; send req to peer -&amp;gt; đợi có resp rồi log&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1372" y="1340" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8r86JPJ58pTuRqmPfgUV-77" value="csc_cell_setup_ind_hdl_sa,&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
