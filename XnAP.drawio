@@ -478,8 +478,8 @@
         <mxCell id="gQsluKdtoeBe8lyjmAMP-52" value="xnap_sctp_act_shutdown" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1316" y="750" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gQsluKdtoeBe8lyjmAMP-53" value="xnap_sctp_act_conn_close" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1316" y="790" width="190" height="20" as="geometry" />
+        <mxCell id="gQsluKdtoeBe8lyjmAMP-53" value="xnap_sctp_act_conn_close&lt;div&gt;ko log do close do resp fail hoặc timer hết hạn -&amp;gt; ko&amp;nbsp; cần log&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1316" y="780" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gQsluKdtoeBe8lyjmAMP-54" value="xnap_sctp_act_snd_data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1316" y="840" width="190" height="20" as="geometry" />
