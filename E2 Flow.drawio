@@ -346,12 +346,98 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jvPZ-3Ekyf7_Q_B-cGhe" name="MRO flow theo chuan">
-    <mxGraphModel dx="628" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="329" dy="175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="f1TFVsDT2WHTBppQm34w-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;swimlaneFillColor=#F8CECC;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CONTROL VIA CONTROL&lt;/font&gt;" vertex="1">
-          <mxGeometry height="170" width="740" x="431" y="630" as="geometry" />
+        <mxCell id="f1TFVsDT2WHTBppQm34w-70" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=light-dark(#dae8fc, #ededed);" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;RIC SUB RC PROCEDURE&lt;/span&gt;" vertex="1">
+          <mxGeometry height="280" width="920" x="270" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-71" parent="f1TFVsDT2WHTBppQm34w-70" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;RIC_SUBSCRIPTION_REQUEST&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;(RC REPORT S3 -&amp;nbsp;E2 Node Information )&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-size: 7px;&quot;&gt;Service (REPORT) -&amp;gt; style (3) -&amp;gt; format (H1-M3)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="160" x="711" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-75" edge="1" parent="f1TFVsDT2WHTBppQm34w-70" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="536" y="125" as="sourcePoint" />
+            <mxPoint x="330" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-84" connectable="0" parent="f1TFVsDT2WHTBppQm34w-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(Y)" vertex="1">
+          <mxGeometry relative="1" x="-0.8605" y="-1" as="geometry">
+            <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-86" connectable="0" parent="f1TFVsDT2WHTBppQm34w-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;RRMCM_RMIF_GET_CELL_CONFIG_REQ&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3993" y="-1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-76" edge="1" parent="f1TFVsDT2WHTBppQm34w-70" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="171" as="sourcePoint" />
+            <mxPoint x="530" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-90" connectable="0" parent="f1TFVsDT2WHTBppQm34w-76" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 5px;&quot;&gt;RRMCM_RMIF_GET_CELL_CONFIG_RES&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3123" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-77" edge="1" parent="f1TFVsDT2WHTBppQm34w-70" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="120" as="sourcePoint" />
+            <mxPoint x="700" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-81" connectable="0" parent="f1TFVsDT2WHTBppQm34w-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 4px; line-height: 60%;&quot;&gt;e2ap: E2SM_RRM_RC_RIC_SUB_RES&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 4px; line-height: 60%;&quot;&gt;(rrm: E2AP_RRM_RC_RIC_SUB_RES)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0514" y="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-78" edge="1" parent="f1TFVsDT2WHTBppQm34w-70" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="130" as="sourcePoint" />
+            <mxPoint x="870.5714285714286" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-85" connectable="0" parent="f1TFVsDT2WHTBppQm34w-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;RIC_SUB_RESP/ FAILED&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.062" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-82" parent="f1TFVsDT2WHTBppQm34w-70" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 2px;&quot;&gt;IS_ACTIVE_CELL&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="14" width="20" x="511" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-88" parent="f1TFVsDT2WHTBppQm34w-70" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div style=&quot;line-height: 30%;&quot;&gt;&lt;font style=&quot;line-height: 30%; font-size: 3px;&quot;&gt;START TIMER TO SENT PERIODIC&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;line-height: 30%; font-size: 3px;&quot;&gt;(CHƯA LÀM)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="70" x="530" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-91" edge="1" parent="f1TFVsDT2WHTBppQm34w-70" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="180" as="sourcePoint" />
+            <mxPoint x="700" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-92" connectable="0" parent="f1TFVsDT2WHTBppQm34w-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 5px; line-height: 100%;&quot;&gt;E2AP_RRM_RC_RIC_IND&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 5px; line-height: 100%;&quot;&gt;(e2ap:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 5px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 100%;&quot;&gt;E2AP_RRM_RC_RIC_IND)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1735" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-93" edge="1" parent="f1TFVsDT2WHTBppQm34w-70" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="700" y="200" as="sourcePoint" />
+            <mxPoint x="870" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-94" connectable="0" parent="f1TFVsDT2WHTBppQm34w-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="RIC_INDICATION" vertex="1">
+          <mxGeometry relative="1" x="-0.0443" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-69" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=light-dark(#ffe6cc, #ededed);" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;RIC SUB KPM PROCEDURE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="210" width="911" x="280" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-1" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;swimlaneFillColor=#F8CECC;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;CONTROL VIA CONTROL (O)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="740" x="436" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-2" edge="1" parent="f1TFVsDT2WHTBppQm34w-1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -378,8 +464,8 @@
         <mxCell id="f1TFVsDT2WHTBppQm34w-6" parent="f1TFVsDT2WHTBppQm34w-1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;detect event&lt;/font&gt;" vertex="1">
           <mxGeometry height="10" width="50" x="690" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-7" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CONTROL VIA POLICY&lt;/font&gt;" vertex="1">
-          <mxGeometry height="170" width="740" x="431" y="450" as="geometry" />
+        <mxCell id="f1TFVsDT2WHTBppQm34w-7" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CONTROL VIA POLICY (O)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="740" x="436" y="880" as="geometry" />
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-8" edge="1" parent="f1TFVsDT2WHTBppQm34w-7" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -407,7 +493,7 @@
         <mxCell id="f1TFVsDT2WHTBppQm34w-13" parent="f1TFVsDT2WHTBppQm34w-7" style="rounded=1;whiteSpace=wrap;html=1;glass=0;gradientColor=none;fillStyle=solid;" value="&lt;font style=&quot;font-size: 8px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;exec POLICY&lt;/font&gt;" vertex="1">
           <mxGeometry height="20" width="80" x="500" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-14" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="f1TFVsDT2WHTBppQm34w-14" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="1381" as="targetPoint" />
           </mxGeometry>
@@ -415,7 +501,7 @@
         <mxCell id="f1TFVsDT2WHTBppQm34w-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RRM_UEM" vertex="1">
           <mxGeometry height="20" width="80" x="420" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-16" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="f1TFVsDT2WHTBppQm34w-16" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="1377" as="targetPoint" />
           </mxGeometry>
@@ -423,7 +509,7 @@
         <mxCell id="f1TFVsDT2WHTBppQm34w-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RRM_CM" vertex="1">
           <mxGeometry height="20" width="80" x="560" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-18" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="f1TFVsDT2WHTBppQm34w-18" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#a20025;strokeColor=#6F0000;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="806" y="1350" as="targetPoint" />
           </mxGeometry>
@@ -447,7 +533,7 @@
         <mxCell id="f1TFVsDT2WHTBppQm34w-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RIC" vertex="1">
           <mxGeometry height="30" width="90" x="1101" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-24" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+        <mxCell id="f1TFVsDT2WHTBppQm34w-24" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="1411" />
@@ -527,17 +613,17 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-40" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1151" y="290" as="sourcePoint" />
-            <mxPoint x="971" y="290" as="targetPoint" />
+            <mxPoint x="1151" y="308.07" as="sourcePoint" />
+            <mxPoint x="971" y="308.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;RIC_SUBSCRIPTION_REQUEST&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;(KPM REPORT MOBILITY)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="20" width="160" x="981" y="280" as="geometry" />
+        <mxCell id="f1TFVsDT2WHTBppQm34w-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 8px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;RIC_SUBSCRIPTION_REQUEST&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;(KPM REPORT MOBILITY)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Service (REPORT) -&amp;gt; style (1) -&amp;gt; format (1)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="160" x="981" y="291.07" as="geometry" />
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="971" y="310" as="sourcePoint" />
-            <mxPoint x="311" y="310" as="targetPoint" />
+            <mxPoint x="971" y="328.07" as="sourcePoint" />
+            <mxPoint x="311" y="328.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-43" connectable="0" parent="f1TFVsDT2WHTBppQm34w-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="RRC_E2SM_KPM_RIC_SUB_REQ" vertex="1">
@@ -547,8 +633,8 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="311" y="340" as="sourcePoint" />
-            <mxPoint x="971" y="340" as="targetPoint" />
+            <mxPoint x="311" y="358.07" as="sourcePoint" />
+            <mxPoint x="971" y="358.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-45" connectable="0" parent="f1TFVsDT2WHTBppQm34w-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="RRC_E2SM_KPM_RIC_SUB_RESP" vertex="1">
@@ -558,23 +644,23 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-46" edge="1" parent="1" source="f1TFVsDT2WHTBppQm34w-48" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="971" y="360" as="sourcePoint" />
-            <mxPoint x="1141" y="360" as="targetPoint" />
+            <mxPoint x="971" y="378.07" as="sourcePoint" />
+            <mxPoint x="1141" y="378.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="f1TFVsDT2WHTBppQm34w-48" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="971" y="360" as="sourcePoint" />
-            <mxPoint x="1141" y="360" as="targetPoint" />
+            <mxPoint x="971" y="378.07" as="sourcePoint" />
+            <mxPoint x="1141" y="378.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;RIC_SUBSCRIPTION_RESPONSE&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;(KPM REPORT MOBILITY)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="20" width="160" x="981" y="350" as="geometry" />
+        <mxCell id="f1TFVsDT2WHTBppQm34w-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 6px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;RIC_SUBSCRIPTION_RESPONSE&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;(KPM REPORT MOBILITY)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="160" x="981" y="368.07" as="geometry" />
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="311" y="390" as="sourcePoint" />
-            <mxPoint x="971" y="390" as="targetPoint" />
+            <mxPoint x="311" y="408.07" as="sourcePoint" />
+            <mxPoint x="971" y="408.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-50" connectable="0" parent="f1TFVsDT2WHTBppQm34w-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="E2SM_RRC_RIC_INDICATION" vertex="1">
@@ -584,8 +670,8 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-51" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="971" y="400" as="sourcePoint" />
-            <mxPoint x="1141" y="400" as="targetPoint" />
+            <mxPoint x="971" y="418.07" as="sourcePoint" />
+            <mxPoint x="1141" y="418.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-52" connectable="0" parent="f1TFVsDT2WHTBppQm34w-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 10px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;RIC_INDICATION&lt;/span&gt;" vertex="1">
@@ -595,8 +681,8 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-53" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="311" y="420" as="sourcePoint" />
-            <mxPoint x="971" y="420" as="targetPoint" />
+            <mxPoint x="311" y="438.07" as="sourcePoint" />
+            <mxPoint x="971" y="438.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-54" connectable="0" parent="f1TFVsDT2WHTBppQm34w-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="E2SM_RRC_RIC_INDICATION" vertex="1">
@@ -606,8 +692,8 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="971" y="430" as="sourcePoint" />
-            <mxPoint x="1141" y="430" as="targetPoint" />
+            <mxPoint x="971" y="448.07" as="sourcePoint" />
+            <mxPoint x="1141" y="448.07" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-56" connectable="0" parent="f1TFVsDT2WHTBppQm34w-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 10px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;RIC_INDICATION&lt;/span&gt;" vertex="1">
@@ -617,8 +703,8 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-57" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1141" y="480" as="sourcePoint" />
-            <mxPoint x="971" y="480" as="targetPoint" />
+            <mxPoint x="1146" y="910" as="sourcePoint" />
+            <mxPoint x="976" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-58" connectable="0" parent="f1TFVsDT2WHTBppQm34w-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="RIC SUB REQ (POLICY)" vertex="1">
@@ -626,8 +712,8 @@
             <mxPoint x="28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f1TFVsDT2WHTBppQm34w-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="" vertex="1">
-          <mxGeometry height="580" width="340" x="1350" y="110" as="geometry" />
+        <mxCell id="f1TFVsDT2WHTBppQm34w-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="&lt;div style=&quot;line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;1:&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;- Đóng thông tin e2node (plmn - gnb_id)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;RAN Functions Added List&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;├── RAN Function Item #1&amp;nbsp; (KPM Monitor)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── RAN Function ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 1&amp;nbsp; &amp;nbsp; &amp;nbsp;(INTEGER 0..4095, local to gNB)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── RAN Function OID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = &quot;1.3.6.1.4.1.53148.1.2.2.2&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (Object ID của E2SM-KPM)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── RAN Function Revision&amp;nbsp; &amp;nbsp;= 0&amp;nbsp; &amp;nbsp; &amp;nbsp;(counter, tăng khi update)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp;└── RAN Function Definition = &amp;lt;OCTET STRING&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;(nội dung là E2SM-KPM-RANfunction-Description, ASN.1 PER encoded)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── E2SM-KPM-RANfunction-Description&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── ranFunction-Name&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── ranFunction-ShortName&amp;nbsp; = &quot;ORAN-E2SM-KPM&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── ranFunction-E2SM-OID&amp;nbsp; &amp;nbsp;= &quot;1.3.6.1.4.1.53148.1.2.2.2&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── ranFunction-Description= &quot;KPM Monitor&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ranFunction-Instance&amp;nbsp; &amp;nbsp;= 0&amp;nbsp; (nếu có nhiều instance)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── ric-EventTriggerStyle-List&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── Item: Style 1, &quot;Periodic Report&quot;, Format 1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── Item: Style 2, &quot;Measurement Event&quot;, Format 2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── ric-ReportStyle-List&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── Style 1: &quot;E2 Node Measurement&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── Action Format Type&amp;nbsp; &amp;nbsp; &amp;nbsp;= 1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── Indication Hdr Format&amp;nbsp; = 1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── Indication Msg Format&amp;nbsp; = 1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── measInfo-Action-List:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;MM.HoExeAtt.IntraFreq&quot;&amp;nbsp; &amp;nbsp;(ID: 1)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;MM.HoExeSuc.IntraFreq&quot;&amp;nbsp; &amp;nbsp;(ID: 2)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;MM.HoFail.TooLate&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(ID: 3)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;MM.HoFail.TooEarly&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; (ID: 4)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;MM.HoPingPong&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(ID: 5)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;MM.RlfNr&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (ID: 6)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;├── &quot;L1M.DL-SS-RSRP.SSB&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp;(ID: 7)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── &quot;L1M.DL-SS-SINR.SSB&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp;(ID: 8)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── Style 3: &quot;Condition-based UE Measurement&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;└── ...&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;│&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;└── RAN Function Item #2&amp;nbsp; (RC)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; ├── RAN Function ID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 2&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; ├── RAN Function OID&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = &quot;1.3.6.1.4.1.53148.1.2.2.3&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (Object ID của E2SM-RC)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; ├── RAN Function Revision&amp;nbsp; &amp;nbsp;= 0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; └── RAN Function Definition = &amp;lt;OCTET STRING&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; └── E2SM-RC-RANfunction-Description&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── ranFunction-Name: &quot;ORAN-E2SM-RC&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── Supported Event Trigger Styles: [1, 2, 3, 4]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── Supported REPORT Styles:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [1, 2, 3, 4]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ├── Supported CONTROL Styles:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;[3]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px; line-height: 80%;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; └── RAN Parameter definitions for mobility config...&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="580" width="340" x="1250" y="80" as="geometry" />
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -645,6 +731,29 @@
         </mxCell>
         <mxCell id="f1TFVsDT2WHTBppQm34w-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 3px;&quot;&gt;STOP TIMER&lt;/font&gt;" vertex="1">
           <mxGeometry height="10" width="29" x="940" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-65" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="1" vertex="1">
+          <mxGeometry height="10" width="11" x="1030" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-67" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="2" vertex="1">
+          <mxGeometry height="10" width="11" x="1021" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1140" y="607" as="sourcePoint" />
+            <mxPoint x="970" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-74" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="630" as="sourcePoint" />
+            <mxPoint x="810" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TFVsDT2WHTBppQm34w-79" connectable="0" parent="f1TFVsDT2WHTBppQm34w-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 4px; line-height: 70%;&quot;&gt;e2ap: E2SM_RRM_RC_RIC_SUB_REQ&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 4px; line-height: 70%;&quot;&gt;(rrm: E2AP_RRM_RC_RIC_SUB_REQ)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2107" as="geometry">
+            <mxPoint x="18" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
