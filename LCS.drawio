@@ -2156,7 +2156,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="1439" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2028" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2263,7 +2263,7 @@
             <mxPoint x="1610" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZNxLRCeZVPel60bH3Dj9-16" connectable="0" parent="ZGrAXmxRAKZLSYZczRPM-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NRPPA_UECC_MEAS_INIT_REQ" vertex="1">
+        <mxCell id="ZNxLRCeZVPel60bH3Dj9-16" connectable="0" parent="ZGrAXmxRAKZLSYZczRPM-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;NGAP_UECC_NRPPA_MEAS_INIT_REQ&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="0.168" y="-2" as="geometry">
             <mxPoint x="16" as="offset" />
           </mxGeometry>
@@ -2370,7 +2370,7 @@
             <mxPoint x="1280" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5LfGxnLae3ZwnRA_Qz1--6" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;LLIM_F1AP_NRPPA_MEAS_INIT_RESP&lt;/span&gt;" vertex="1">
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--6" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;F1AP_&lt;/span&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;LLIM_&lt;/span&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;NRPPA_MEAS_INIT_RESP&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0387" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2381,7 +2381,7 @@
             <mxPoint x="1600" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5LfGxnLae3ZwnRA_Qz1--7" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="UECC_LLIM_NRPPA_MEAS_INIT_RESP" vertex="1">
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--7" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="LLIM_UECC_NRPPA_MEAS_INIT_RESP" vertex="1">
           <mxGeometry relative="1" x="-0.0157" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2392,7 +2392,7 @@
             <mxPoint x="1850" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5LfGxnLae3ZwnRA_Qz1--8" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NRPPA_UECC_MEAS_INIT_RESP" vertex="1">
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--8" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;UECC_NGAP_NRPPA_MEAS_INIT_RESP&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0905" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2421,6 +2421,9 @@
         </mxCell>
         <mxCell id="W15cDk6b6msPh2lY20pN-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DU" vertex="1">
           <mxGeometry height="1170" width="1340" x="-600" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--12" parent="W15cDk6b6msPh2lY20pN-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Switch theo request" vertex="1">
+          <mxGeometry height="30" width="70" x="770" y="260" as="geometry" />
         </mxCell>
         <mxCell id="W15cDk6b6msPh2lY20pN-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CU" vertex="1">
           <mxGeometry height="1495" width="1550" x="950" y="75" as="geometry" />
