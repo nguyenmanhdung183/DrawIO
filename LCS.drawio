@@ -2156,7 +2156,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="1981" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1439" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2296,7 +2296,7 @@
             <mxPoint x="170" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W15cDk6b6msPh2lY20pN-3" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="F1_NRPPA_MEAS_INIT_REQ" vertex="1">
+        <mxCell id="W15cDk6b6msPh2lY20pN-3" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="F1_NRPPA_MEAS_INIT_REQ (tự tạo ASN)" vertex="1">
           <mxGeometry relative="1" x="0.019" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2359,7 +2359,7 @@
             <mxPoint x="1100" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5LfGxnLae3ZwnRA_Qz1--5" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="F1_NRPPA_MEAS_INIT_RESP" vertex="1">
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--5" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="F1_NRPPA_MEAS_INIT_RESP (tự tạo ASN)" vertex="1">
           <mxGeometry relative="1" x="-0.1017" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
