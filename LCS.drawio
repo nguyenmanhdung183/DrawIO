@@ -2156,7 +2156,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="1825" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2337,10 +2337,20 @@
             <mxPoint x="-10" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--3" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="MAC_DUMGR_TA_MEAS_RESP" vertex="1">
+          <mxGeometry relative="1" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-10" y="600" as="sourcePoint" />
             <mxPoint x="160" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--4" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;DF1AP_DCPM_TA_MEAS_RESP&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0252" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -2349,10 +2359,20 @@
             <mxPoint x="1100" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--5" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="F1_NRPPA_MEAS_INIT_RESP" vertex="1">
+          <mxGeometry relative="1" x="-0.1017" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1110" y="670" as="sourcePoint" />
             <mxPoint x="1280" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--6" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;LLIM_F1AP_NRPPA_MEAS_INIT_RESP&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0387" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -2361,10 +2381,20 @@
             <mxPoint x="1600" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--7" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="UECC_LLIM_NRPPA_MEAS_INIT_RESP" vertex="1">
+          <mxGeometry relative="1" x="-0.0157" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1610" y="720" as="sourcePoint" />
             <mxPoint x="1850" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--8" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NRPPA_UECC_MEAS_INIT_RESP" vertex="1">
+          <mxGeometry relative="1" x="-0.0905" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -2373,10 +2403,20 @@
             <mxPoint x="2070" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--9" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="UplinkUEAssociatedNRPPaTransport" vertex="1">
+          <mxGeometry relative="1" x="-0.0701" y="-1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZNxLRCeZVPel60bH3Dj9-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2080" y="840" as="sourcePoint" />
             <mxPoint x="2300" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--10" connectable="0" parent="ZNxLRCeZVPel60bH3Dj9-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="E-CIDMeasurementInitiationResponse" vertex="1">
+          <mxGeometry relative="1" x="-0.0104" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W15cDk6b6msPh2lY20pN-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="DU" vertex="1">
