@@ -2156,7 +2156,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="2028" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1523" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2224,7 +2224,7 @@
             <mxPoint x="1605" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZGrAXmxRAKZLSYZczRPM-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UECCMD&lt;div&gt;rrc&lt;/div&gt;" vertex="1">
+        <mxCell id="ZGrAXmxRAKZLSYZczRPM-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UECC&lt;div&gt;rrc&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="1560" y="240" as="geometry" />
         </mxCell>
         <mxCell id="ZGrAXmxRAKZLSYZczRPM-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -2427,6 +2427,9 @@
         </mxCell>
         <mxCell id="W15cDk6b6msPh2lY20pN-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CU" vertex="1">
           <mxGeometry height="1495" width="1550" x="950" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="5LfGxnLae3ZwnRA_Qz1--13" parent="W15cDk6b6msPh2lY20pN-6" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="UECC decode nốt" vertex="1">
+          <mxGeometry height="25" width="130" x="680" y="265" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
