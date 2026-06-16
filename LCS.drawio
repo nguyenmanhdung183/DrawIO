@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Page-1" id="akRJv1Bxuup4t1sFyAmf">
-    <mxGraphModel dx="4257" dy="1555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5285" dy="2101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1418,7 +1418,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DlbPWtXpNAzo47_CA9T2-291" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="F1_SETUP_RESP &amp;lt;- CU">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
+          <mxGeometry height="50" relative="1" width="50" x="0.0044" as="geometry">
+            <mxPoint as="offset" />
             <mxPoint x="-1800" y="2624" as="sourcePoint" />
             <mxPoint x="-1950" y="2624" as="targetPoint" />
           </mxGeometry>
@@ -2156,7 +2157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="1523" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2424,6 +2425,9 @@
         </mxCell>
         <mxCell id="5LfGxnLae3ZwnRA_Qz1--12" parent="W15cDk6b6msPh2lY20pN-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Switch theo request" vertex="1">
           <mxGeometry height="30" width="70" x="770" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kXFrxJJfxNOaiTBhHz8Y-2" parent="W15cDk6b6msPh2lY20pN-5" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="ĐẠO" vertex="1">
+          <mxGeometry height="620" width="420" x="230" y="70" as="geometry" />
         </mxCell>
         <mxCell id="W15cDk6b6msPh2lY20pN-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CU" vertex="1">
           <mxGeometry height="1495" width="1550" x="950" y="75" as="geometry" />
