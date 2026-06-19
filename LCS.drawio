@@ -2157,7 +2157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="1374" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1734" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2190,9 +2190,6 @@
             <mxPoint x="1855" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0B66pbPukjlx4CWiG7MY-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="NGAP&lt;div&gt;rrc&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="90" x="1810" y="170" as="geometry" />
-        </mxCell>
         <mxCell id="LwVUqPWyAxhMAIPAaqAv-1" edge="1" parent="1" source="piBam3-QHQve95W2eloe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-10" y="1116" as="targetPoint" />
@@ -2206,7 +2203,7 @@
             <mxPoint x="2080" y="1277.3529411764705" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZGrAXmxRAKZLSYZczRPM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AMF" vertex="1">
+        <mxCell id="ZGrAXmxRAKZLSYZczRPM-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AMF&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2020" y="150" as="geometry" />
         </mxCell>
         <mxCell id="ZGrAXmxRAKZLSYZczRPM-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CSC&lt;div&gt;rrc&lt;/div&gt;" vertex="1">
@@ -2450,8 +2447,11 @@
             <mxPoint x="360" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D6yif6VCDgj8wJWTXJ4H-4" parent="W15cDk6b6msPh2lY20pN-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;NGAP_DOWNLINK_UE_ASSOCIARED_NRPPA_TRANSPORT&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="D6yif6VCDgj8wJWTXJ4H-4" parent="W15cDk6b6msPh2lY20pN-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;NGAP_DOWNLINK_UE_ASSOCIATED_NRPPA_TRANSPORT&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="770" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0B66pbPukjlx4CWiG7MY-10" parent="W15cDk6b6msPh2lY20pN-6" style="rounded=1;whiteSpace=wrap;html=1;" value="NGAP&lt;div&gt;rrc&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;ngap_process_amf_messages&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="146" x="858" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
