@@ -2157,7 +2157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vcuHoqyCiOjGRxPBf1lw" name="Page-2">
-    <mxGraphModel dx="2080" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1762" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2430,10 +2430,13 @@
           <mxGeometry height="620" width="420" x="230" y="70" as="geometry" />
         </mxCell>
         <mxCell id="W15cDk6b6msPh2lY20pN-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CU" vertex="1">
-          <mxGeometry height="1495" width="1550" x="950" y="75" as="geometry" />
+          <mxGeometry height="1495" width="1550" x="930" y="70" as="geometry" />
         </mxCell>
         <mxCell id="5LfGxnLae3ZwnRA_Qz1--13" parent="W15cDk6b6msPh2lY20pN-6" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="UECC decode nốt" vertex="1">
           <mxGeometry height="25" width="130" x="680" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="D6yif6VCDgj8wJWTXJ4H-1" parent="W15cDk6b6msPh2lY20pN-6" style="rounded=1;whiteSpace=wrap;html=1;" value="UECCMD" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
